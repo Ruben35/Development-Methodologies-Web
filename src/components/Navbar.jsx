@@ -9,7 +9,9 @@ export default function Navbar() {
 				<Link to='/'>
 					<Chart />
 				</Link>
-				<span className='labelText'>Metodologías</span>
+				<Link to='/Methodologies'>
+					<span className='labelText'>Metodologías</span>
+				</Link>
 			</div>
 		</nav>
 	)

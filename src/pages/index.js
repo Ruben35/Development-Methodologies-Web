@@ -3,6 +3,7 @@ import { Container, InfoCard } from "../components"
 import Seo from "../components/utils/Seo"
 import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 const HomePage = () => {
 	return (
@@ -17,7 +18,9 @@ const HomePage = () => {
 					alt='Croods The FeedBack'
 				/>
 				<p>¡Un recurso digital para conocerlas y saber cómo aplicarlas!</p>
-				<button>¡Aprender ahora!</button>
+				<Link to='/Methodologies'>
+					<button>¡Aprender ahora!</button>
+				</Link>
 			</Container>
 			<Container className={styles.cardsSection}>
 				<h3>Aquí podras:</h3>
