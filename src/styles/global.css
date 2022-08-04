@@ -238,8 +238,9 @@ button:active{
     display: grid;
     grid-template-rows: 1fr 0.8fr;
     border-radius: 16px;
-    /* max-height: 220px; */
     box-shadow: var(--shadowCard);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .cardName{
@@ -257,4 +258,33 @@ button:active{
 
 .cardImageWrapper{
     height: 100%;
+}
+
+.cardMethodology:hover{
+    transform: translateY(-5px);
+}
+
+/* * ShowMoreLess * */
+
+.showMoreLess{
+    color: var(--textHeadingBlack);
+    font-weight: var(--boldFont);
+    width: fit-content;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin: auto;
+    filter: drop-shadow(0px 8px 7px #2B28328a);
+    cursor: pointer;
+    animation: 0.3s;
+}
+
+.less{
+    flex-direction: column-reverse;
+}
+
+.less svg {
+    transform: rotate(180deg);
 }

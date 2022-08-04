@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react"
-import { CardMethodology } from "../../"
+import { CardMethodology, ShowMoreLess } from "../../"
 import { useBreakpoint } from "../../../utils/useBreakpoint"
 import * as styles from "../../../styles/methodologies.module.css"
 import { navigate } from "gatsby"
+import PropTypes from "prop-types"
 
 const cardsToShow = (breakpoint) => {
 	if (breakpoint >= 957) {
@@ -19,7 +20,8 @@ const cardsToShow = (breakpoint) => {
 	}
 }
 
-const CardsGrid = ({ type }) => {
+// TODO: Add Array Data as prop
+const CardsGrid = ({ refToScroll }) => {
 	const breakpoint = useBreakpoint()
 	const [noCardsToShow, setNoCardsToShow] = useState(cardsToShow(breakpoint))
 	const [currentShowed, setcurrentShowed] = useState(noCardsToShow)
@@ -40,7 +42,10 @@ const CardsGrid = ({ type }) => {
 	const showLess = (e) => {
 		e.preventDefault()
 		setcurrentShowed(noCardsToShow)
-		navigate(`/Methodologies#${type}`)
+		if (refToScroll) {
+			refToScroll.current.scrollIntoView({ behavior: "smooth" })
+			console.log(refToScroll)
+		}
 	}
 
 	return (
@@ -50,12 +55,11 @@ const CardsGrid = ({ type }) => {
 					<CardMethodology key={item} />
 				))}
 			</div>
-			{currentShowed !== array.length ? ( // If there are more elements toggle
-				<button onClick={showMore}>Ver más</button>
-			) : (
-				noCardsToShow < array.length && ( // Don't show if all the screen already has all the elements
-					<button onClick={showLess}>Ver menos</button>
-				)
+			{noCardsToShow < array.length && (
+				<ShowMoreLess
+					type={currentShowed !== array.length ? "more" : "less"}
+					onClick={currentShowed !== array.length ? showMore : showLess}
+				/>
 			)}
 		</>
 	)

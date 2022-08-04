@@ -13,12 +13,12 @@ function InfoCard({ type, text = "" }) {
 	)
 }
 
-CircularIcon.defaultProps = {
+InfoCard.defaultProps = {
 	type: "Chart",
 	text: "",
 }
 
-CircularIcon.propTypes = {
+InfoCard.propTypes = {
 	type: PropTypes.oneOf(["Chart", "Gear", "ToDo"]),
 	text: PropTypes.string,
 }
