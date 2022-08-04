@@ -5,6 +5,7 @@ module.exports = {
 		description: `Página web donde se incluye información sobre diversas metodologías de desarrollo de proyectos de tecnología.`,
 		author: `Verónica Agustín Dominguez & @Ruben35`,
 	},
+	pathPrefix: "/Development-Methodologies-Web",
 	plugins: [
 		"gatsby-plugin-image",
 		"gatsby-plugin-sharp",

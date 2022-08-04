@@ -9,7 +9,8 @@ function CardMethodology() {
 				className='cardImageWrapper'
 				imgClassName='cardImage'
 				alt='Basado en Componentes'
-				loading='eager'
+				placeholder='blurred'
+				loading='lazy'
 			/>
 			<div className='cardName'>
 				<b>Basado en Componentes</b>
