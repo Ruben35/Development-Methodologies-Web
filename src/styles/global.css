@@ -88,6 +88,9 @@ a:visited{
     color: var(--textContrast);
 }
 
+a:link{
+    color: var(--textContrast);
+}
 
 .labelText, button {
     font-size: 1.125rem;
@@ -110,6 +113,10 @@ a:visited{
 
 .wrap-content{
     grid-column-start: 2;
+}
+
+.specialSection{
+    background-color: var(--primarySoft);
 }
 
 /* =====================
@@ -163,6 +170,7 @@ footer{
 }
 
 /* * Button * */
+
 button{
     cursor: pointer;
     background-color: var(--textHeadingBlack);
@@ -170,6 +178,7 @@ button{
     padding: 15px 30px;
     border-radius: 6px;
     transition: 0.3s;
+    border: none;
 }
 
 button:hover{
@@ -181,6 +190,7 @@ button:active{
 }
 
 /* * Atom CircularIcon * */
+
 .circularIcon{
     background-color: var(--primaryStrong);
     display: inline-flex;
@@ -192,6 +202,7 @@ button:active{
 }
 
 /* * InfoCard * */
+
 .infoCard{
     display: flex;
     justify-content: center;
@@ -207,4 +218,43 @@ button:active{
 
 .infoCard:hover{
     transform: translateY(-5px);
+}
+
+/* * Hero * */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 70px 0;
+    background-color: var(--primarySoft);
+}
+
+/* * Card Methodology * */
+
+.cardMethodology{
+    background-color: var(--background-L1);
+    color: var(--textHeadingBlack);    
+    display: grid;
+    grid-template-rows: 1fr 0.8fr;
+    border-radius: 16px;
+    /* max-height: 220px; */
+    box-shadow: var(--shadowCard);
+}
+
+.cardName{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.cardImage{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.cardImageWrapper{
+    height: 100%;
 }
