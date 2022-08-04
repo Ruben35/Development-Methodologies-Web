@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Metodologías de Desarrollo de Proyectos`,
-		siteUrl: `https://www.yourdomain.tld`,
+		siteUrl: `https://ruben35.github.io/Development-Methodologies-Web/`,
 		description: `Página web donde se incluye información sobre diversas metodologías de desarrollo de proyectos de tecnología.`,
 		author: `Verónica Agustín Dominguez & @Ruben35`,
 	},
