@@ -10,13 +10,14 @@ module.exports = {
 		"gatsby-plugin-image",
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
+		`gatsby-transformer-json`,
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
-				name: "assets",
-				path: "./src/assets/",
+				name: "data",
+				path: "./src/assets",
 			},
-			__key: "assets",
+			__key: "data",
 		},
 		{
 			resolve: "gatsby-plugin-react-svg",
