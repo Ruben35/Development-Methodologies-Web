@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Ágil XP",
+		"imagePath": "images/Methodologies/Agile/AgilXP.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"La metodología XP (del Inglés “eXtreme Programming”)  es una metodología iterativa creada por Kent Beck , Ron Jeffries y Ward Cunningham a principios de la década de los 2000. Aquí se busca la participación activa de los involucrados en el proceso de gestión de incidencias en la especificación y priorización de los requerimientos del sistema."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Cual es su ciclo de vida?",
+				"bodyCopy": "Al igual que otras metodologías de gestión de proyectos, tanto Ágiles como tradicionales, el ciclo XP incluye:",
+				"content": [
+					{
+						"type": "list",
+						"list": [
+							"Entender lo que el cliente necesita > Fase de Exploración",
+							"Estimar el esfuerzo > Fase de Planificación",
+							"Crear la solución > Fase de Iteraciones",
+							"Entregar el producto final al cliente > Fase de puesta en producción"
+						]
+					},
+					{
+						"type": "p",
+						"p": ["Las 4 etapas que sigue la Programación Extrema:"]
+					},
+					{
+						"type": "list",
+						"list": [
+							"Planificación: toma como referencia la identificación de la historia del usuario con pequeñas versiones que se irán revisando en periodos cortos con el fin de obtener un software funcional.",
+							"Diseño: trabaja el código orientado a objetivos y, sobre todo, usando los recursos necesarios para que funcione.",
+							"Codificación: se refiere al proceso de programación organizada en parejas, estandarizada y que resulte en un código universal entendible.",
+							"Pruebas: consiste en un testeo automático y continuo en el que el cliente tiene voz para validar y proponer. Es, en pocas palabras, la prueba de aceptación."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Qué caracteriza XP?",
+				"bodyCopy": "Lo que caracteriza a XP, al igual que al resto de métodos Ágiles es un ciclo de vida dinámico. ¿Cómo lo logra XP? Mediante ciclos de desarrollo cortos (llamados iteraciones), al fin de los cuales se generan unos entregables funcionales.",
+				"content": [
+					{
+						"type": "p",
+						"p": ["Sus principales características son:"]
+					},
+					{
+						"type": "list",
+						"list": [
+							"**Programación en pares.** Los integrantes del equipo trabajan bajo esta premisa, en donde cada uno comprobará el trabajo del otro; además de ofrecer apoyo para que se realice siempre un buen trabajo.",
+							"**El desarrollo incremental se apoya en pequeñas y frecuentes liberaciones del sistema.** Los requerimientos se fundamentan en simples historias del cliente, o bien, en escenarios usados como base para decidir qué funcionalidad debe incluirse en un incremento del sistema.",
+							"**Programación de pruebas.** Los involucrados en el proceso de gestión serán los responsables de definir las pruebas de aceptación para el sistema.",
+							"**Ciclos Semanales y Trimestrales.** Se consideran a las semanas como iteraciones y a los trimestres como lanzamientos, donde se trata de ajustar las historias de usuario a desarrollar con base en las discusiones de lo que desea el cliente.",
+							"**Liberaciones regulares del sistema para su aprobación.** El cliente está muy involucrado en el seguimiento del proyecto, desde en la creación de las historias, en las pruebas de aceptación, y en la generación de cambios.",
+							"**Integración contínua.** Refactorización para evitar degeneración del código e integración continua de nueva funcionalidad, así como el uso de diseños simples para mejorar la calidad del proyecto."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Requisitos de software que cambian dinámicamente",
+					"Riesgos causados por proyectos de tiempo fijo usando nueva tecnología",
+					"Equipo de desarrollo extendido pequeño y ubicado en el mismo lugar",
+					"La tecnología que está utilizando permite pruebas unitarias y funcionales automatizadas"
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://www.digite.com/es/agile/programacion-extrema-xp/",
+					"https://proagilist.es/blog/agilidad-y-gestion-agil/agile-scrum/la-metodologia-xp/",
+					"https://orientacion.universia.edu.pe/infodetail/orientacion/consejos/que-es-xp-y-como-usarlo-en-el-desarrollo-de-un-proyecto-6157.html"
+				]
+			}
+		]
+	}
+]
