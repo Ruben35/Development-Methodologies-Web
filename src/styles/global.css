@@ -227,7 +227,23 @@ button:active{
     flex-direction: column;
     gap: 10px;
     margin: 70px 0;
-    background-color: var(--primarySoft);
+}
+
+/* * HeroWithType * */
+
+.heroWithType{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.heroWithType span{
+    background-color: var(--primaryNormal);
+    color: var(--textContrast);
+    padding: 2px 12px;
+    width: fit-content;
+    border-radius: 24px;
 }
 
 /* * Card Methodology * */

@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react"
 import { CardMethodology, ShowMoreLess } from "../../"
 import { useBreakpoint } from "../../../utils/useBreakpoint"
 import * as styles from "../../../styles/methodologies.module.css"
-import { navigate } from "gatsby"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 
 const cardsToShow = (breakpoint) => {
 	if (breakpoint >= 957) {
@@ -52,7 +51,7 @@ const CardsGrid = ({ refToScroll }) => {
 		<>
 			<div className={styles.cards}>
 				{array.slice(0, currentShowed).map((item) => (
-					<CardMethodology key={item} />
+					<CardMethodology key={item} to={"/IndividualMethodology"} />
 				))}
 			</div>
 			{noCardsToShow < array.length && (

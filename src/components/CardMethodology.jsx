@@ -1,9 +1,14 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { navigate } from "gatsby"
+import PropTypes from "prop-types"
 
-function CardMethodology() {
+function CardMethodology({ to = "/" }) {
+	const handleNavigate = () => {
+		navigate(`${to}`)
+	}
 	return (
-		<div className='cardMethodology'>
+		<div className='cardMethodology' onClick={handleNavigate}>
 			<StaticImage
 				src='../assets/images/Methodologies/Traditional/Basado en Componentes.png'
 				className='cardImageWrapper'
@@ -17,6 +22,14 @@ function CardMethodology() {
 			</div>
 		</div>
 	)
+}
+
+CardMethodology.defaultProps = {
+	to: "/",
+}
+
+CardMethodology.propTypes = {
+	to: PropTypes.string,
 }
 
 export default CardMethodology

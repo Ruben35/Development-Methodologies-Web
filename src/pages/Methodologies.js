@@ -2,6 +2,7 @@ import React, { useRef } from "react"
 import { Container, Hero } from "../components"
 import * as styles from "../styles/methodologies.module.css"
 import CardsGrid from "../components/page/Methodologies/CardsGrid"
+import Seo from "../components/utils/Seo"
 
 function Methodologies() {
 	const refTraditional = useRef(null)
@@ -18,5 +19,7 @@ function Methodologies() {
 		</>
 	)
 }
+
+export const Head = () => <Seo title='Metodologías' />
 
 export default Methodologies
