@@ -62,5 +62,4 @@
 
 .references a:hover{
     color: var(--primaryStrong);
-    /* text-decoration: overline !important; */
 }

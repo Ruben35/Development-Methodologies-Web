@@ -13,10 +13,10 @@ module.exports = {
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
-				name: "images",
+				name: "assets",
 				path: "./src/assets/",
 			},
-			__key: "images",
+			__key: "assets",
 		},
 		{
 			resolve: "gatsby-plugin-react-svg",

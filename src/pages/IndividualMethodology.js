@@ -1,42 +1,28 @@
 import React from "react"
 import { HeroWithType, Container } from "../components"
-import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "../styles/individualMethodology.module.css"
+import { ImageConcept } from "../components/page/IndividualMethodology"
+import { useStaticQuery, graphql } from "gatsby"
 
 function IndividualMethodology() {
+	const dataImage = useStaticQuery(graphql`
+		query GET_IMAGE {
+			file(
+				relativePath: {
+					eq: "images/Methodologies/Traditional/Basado en Componentes.png"
+				}
+			) {
+				childImageSharp {
+					gatsbyImageData(placeholder: BLURRED)
+				}
+			}
+		}
+	`)
+
 	return (
 		<div className={styles.wrapMethodology}>
 			<HeroWithType title='Basado en Componentes' type='Tradicional' />
-			<Container>
-				<div className={styles.image_Concept}>
-					<StaticImage
-						src='../assets/images/Methodologies/Traditional/Basado en Componentes.png'
-						alt='Basado en Componentes'
-						className={styles.imageStyle}
-						placeholder='blurred'
-						loading='lazy'
-					/>
-					<div>
-						<h3>¿Cómo funciona</h3>
-						<p>
-							Es una metodología que incorpora muchas de las características del
-							modelo en espiral y permite establecer un objetivo mínimo
-							alcanzable. Esta se basa en utilizar componentes existentes o
-							creados por el desarrollador, de manera que también es posible
-							modificar los componentes ya existentes y adecuarlos al proyecto
-							en cuestión, para lograr el objetivo que se quiere alcanzar.
-						</p>
-						<p>
-							A diferencia de la metodología en espiral clásica, esta se
-							diferencia en que considera la anexión de elementos que pueden ser
-							externos, y construir aplicaciones mediante el ensamblado de
-							módulos de software reutilizables, los cuales fueron desarrollados
-							de forma independiente a las aplicaciones en las que serán
-							utilizados.
-						</p>
-					</div>
-				</div>
-			</Container>
+			<ImageConcept imageQuery={dataImage} title={"Basado en Componentes"} />
 			<Container className={styles.wrapMargin}>
 				<h3>¿Porqué se usa?</h3>
 				<p>Se usa principalmente por las siguientes características</p>
