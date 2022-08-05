@@ -20,22 +20,19 @@ const cardsToShow = (breakpoint) => {
 }
 
 // TODO: Add Array Data as prop
-const CardsGrid = ({ refToScroll }) => {
+const CardsGrid = ({ refToScroll, data }) => {
 	const breakpoint = useBreakpoint()
 	const [noCardsToShow, setNoCardsToShow] = useState(cardsToShow(breakpoint))
 	const [currentShowed, setcurrentShowed] = useState(noCardsToShow)
-	const array = [
-		1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-	]
 
 	useEffect(() => {
 		setNoCardsToShow(cardsToShow(breakpoint))
-		if (currentShowed < array.length) setcurrentShowed(cardsToShow(breakpoint))
-	}, [breakpoint, array.length, currentShowed])
+		if (currentShowed < data.length) setcurrentShowed(cardsToShow(breakpoint))
+	}, [breakpoint, data.length, currentShowed])
 
 	const showMore = (e) => {
 		e.preventDefault()
-		setcurrentShowed(array.length)
+		setcurrentShowed(data.length)
 	}
 
 	const showLess = (e) => {
@@ -43,21 +40,25 @@ const CardsGrid = ({ refToScroll }) => {
 		setcurrentShowed(noCardsToShow)
 		if (refToScroll) {
 			refToScroll.current.scrollIntoView({ behavior: "smooth" })
-			console.log(refToScroll)
 		}
 	}
 
 	return (
 		<>
 			<div className={styles.cards}>
-				{array.slice(0, currentShowed).map((item) => (
-					<CardMethodology key={item} to={"/IndividualMethodology"} />
+				{data.slice(0, currentShowed).map((item) => (
+					<CardMethodology
+						key={item.title}
+						image={item.image}
+						alt={item.title}
+						to={"/IndividualMethodology"}
+					/>
 				))}
 			</div>
-			{noCardsToShow < array.length && (
+			{noCardsToShow < data.length && (
 				<ShowMoreLess
-					type={currentShowed !== array.length ? "more" : "less"}
-					onClick={currentShowed !== array.length ? showMore : showLess}
+					type={currentShowed !== data.length ? "more" : "less"}
+					onClick={currentShowed !== data.length ? showMore : showLess}
 				/>
 			)}
 		</>
