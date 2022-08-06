@@ -50,8 +50,8 @@ const CardsGrid = ({ refToScroll, data }) => {
 					<CardMethodology
 						key={item.title}
 						image={item.image}
-						alt={item.title}
-						to={"/IndividualMethodology"}
+						title={item.title}
+						to={`/${item.to}`}
 					/>
 				))}
 			</div>

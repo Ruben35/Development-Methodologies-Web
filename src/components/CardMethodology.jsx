@@ -1,30 +1,21 @@
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { navigate } from "gatsby"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
-function CardMethodology({ to = "/", image, alt }) {
-	const handleNavigate = () => {
-		navigate(`${to}`)
-	}
+function CardMethodology({ to = "/", image, title }) {
 	return (
-		<div
-			className='cardMethodology'
-			onClick={handleNavigate}
-			onKeyDown={handleNavigate}
-			role='button'
-			tabIndex='0'
-		>
+		<Link className='cardMethodology' to={to} role='button' tabIndex='0'>
 			<GatsbyImage
 				image={image.childImageSharp.gatsbyImageData}
 				className='cardImageWrapper'
 				imgClassName='cardImage'
-				alt={alt}
+				alt={title}
 			/>
 			<div className='cardName'>
-				<b>Basado en Componentes</b>
+				<b>{title}</b>
 			</div>
-		</div>
+		</Link>
 	)
 }
 
@@ -35,7 +26,7 @@ CardMethodology.defaultProps = {
 CardMethodology.propTypes = {
 	to: PropTypes.string,
 	image: PropTypes.object,
-	alt: PropTypes.string.isRequired,
+	title: PropTypes.string.isRequired,
 }
 
 export default CardMethodology

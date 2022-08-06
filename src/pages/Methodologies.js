@@ -4,6 +4,7 @@ import * as styles from "../styles/methodologies.module.css"
 import CardsGrid from "../components/page/Methodologies/CardsGrid"
 import Seo from "../components/utils/Seo"
 import { graphql } from "gatsby"
+import pageNameFormat from "../utils/pageNameFormat"
 
 function Methodologies({ data }) {
 	const refTraditional = useRef(null)
@@ -16,11 +17,13 @@ function Methodologies({ data }) {
 			item.image = data.traditionalImages.nodes.find(
 				(element) => element.relativePath === item.imagePath
 			)
+			item.to = pageNameFormat(item.title)
 		})
 		data.allAgilJson.nodes.forEach((item) => {
 			item.image = data.agileImages.nodes.find(
 				(element) => element.relativePath === item.imagePath
 			)
+			item.to = pageNameFormat(item.title)
 		})
 		setDataTraditional(data.allTraditionalJson.nodes)
 		setDataAgile(data.allAgilJson.nodes)
@@ -44,7 +47,7 @@ function Methodologies({ data }) {
 					</Container>
 				</>
 			) : (
-				<div className='Loading'>Loading...</div>
+				<div className='loading'>Loading...</div>
 			)}
 		</>
 	)
