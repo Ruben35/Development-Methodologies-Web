@@ -7,7 +7,6 @@ import {
 	SectionContent,
 	SpecialSection,
 } from "../components/page/IndividualMethodology"
-import TextFormatter from "../components/utils/TextFormatter"
 
 function IndividualMethodology({ pageContext }) {
 	const { title, type, image, content } = pageContext
@@ -18,7 +17,6 @@ function IndividualMethodology({ pageContext }) {
 			{content.map((item, index) => (
 				<SelectContent key={index} title={title} image={image} content={item} />
 			))}
-			<TextFormatter>Hl</TextFormatter>
 		</div>
 	)
 }

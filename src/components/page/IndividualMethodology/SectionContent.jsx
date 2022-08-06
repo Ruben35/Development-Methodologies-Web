@@ -1,6 +1,7 @@
 import React from "react"
 import { Container } from "../../"
 import * as styles from "../../../styles/individualMethodology.module.css"
+import TextFormatter from "../../utils/TextFormatter"
 
 function SectionContent({ data }) {
 	const { header, bodyCopy, content } = data
@@ -11,11 +12,19 @@ function SectionContent({ data }) {
 			<div>
 				{content.map((item, index) =>
 					item.type === "p" ? (
-						<p key={index}>{item.p}</p>
+						<div key={index}>
+							{item.p.map((pItem, index) => (
+								<TextFormatter key={index} wrapWith='p'>
+									{pItem}
+								</TextFormatter>
+							))}
+						</div>
 					) : (
 						<ul key={index}>
 							{item.list.map((listItem, index) => (
-								<li key={index}>{listItem}</li>
+								<TextFormatter key={index} wrapWith='li'>
+									{listItem}
+								</TextFormatter>
 							))}
 						</ul>
 					)

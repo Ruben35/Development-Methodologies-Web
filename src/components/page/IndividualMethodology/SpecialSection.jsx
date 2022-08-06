@@ -1,6 +1,7 @@
 import React from "react"
 import { Container } from "../../"
 import * as styles from "../../../styles/individualMethodology.module.css"
+import TextFormatter from "../../utils/TextFormatter"
 
 function SpecialSection({ data }) {
 	return (
@@ -10,7 +11,9 @@ function SpecialSection({ data }) {
 			<div>
 				<ul>
 					{data.content.map((item, index) => (
-						<li key={index}>{item}</li>
+						<TextFormatter key={index} wrapWith='li'>
+							{item}
+						</TextFormatter>
 					))}
 				</ul>
 			</div>

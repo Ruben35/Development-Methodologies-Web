@@ -2,6 +2,7 @@ import React from "react"
 import * as styles from "../../../styles/individualMethodology.module.css"
 import { Container } from "../../"
 import { GatsbyImage } from "gatsby-plugin-image"
+import TextFormatter from "../../utils/TextFormatter"
 
 function ImageConcept({ gatsbyImage, title, data }) {
 	return (
@@ -15,7 +16,9 @@ function ImageConcept({ gatsbyImage, title, data }) {
 				<div>
 					<h3>¿Cómo funciona</h3>
 					{data.concept.map((p, index) => (
-						<p key={index}>{p}</p>
+						<TextFormatter key={index} wrapWith='p'>
+							{p}
+						</TextFormatter>
 					))}
 				</div>
 			</div>
