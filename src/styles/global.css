@@ -241,7 +241,7 @@ button:active{
 .heroWithType span{
     background-color: var(--primaryNormal);
     color: var(--textContrast);
-    padding: 2px 12px;
+    padding: 4px 14px;
     width: fit-content;
     border-radius: 24px;
 }
