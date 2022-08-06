@@ -7,16 +7,18 @@ import {
 	SectionContent,
 	SpecialSection,
 } from "../components/page/IndividualMethodology"
+import TextFormatter from "../components/utils/TextFormatter"
 
 function IndividualMethodology({ pageContext }) {
 	const { title, type, image, content } = pageContext
-	console.log(pageContext)
+
 	return (
 		<div className={styles.wrapMethodology}>
 			<HeroWithType title={title} type={type} />
-			{content.map((item) => (
-				<SelectContent title={title} image={image} content={item} />
+			{content.map((item, index) => (
+				<SelectContent key={index} title={title} image={image} content={item} />
 			))}
+			<TextFormatter>Hl</TextFormatter>
 		</div>
 	)
 }

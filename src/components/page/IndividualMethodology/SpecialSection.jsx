@@ -9,8 +9,8 @@ function SpecialSection({ data }) {
 			<p>Se utiliza en proyectos con las siguientes características:</p>
 			<div>
 				<ul>
-					{data.content.map((item) => (
-						<li>{item}</li>
+					{data.content.map((item, index) => (
+						<li key={index}>{item}</li>
 					))}
 				</ul>
 			</div>

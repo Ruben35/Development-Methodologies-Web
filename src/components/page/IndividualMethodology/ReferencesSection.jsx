@@ -8,8 +8,8 @@ function ReferencesSection({ data }) {
 			<h3>Referencias</h3>
 			<div>
 				<ul>
-					{data.content.map((item) => (
-						<li>
+					{data.content.map((item, index) => (
+						<li key={index}>
 							<a href={item} target='_blank' rel='noreferrer'>
 								{item}
 							</a>

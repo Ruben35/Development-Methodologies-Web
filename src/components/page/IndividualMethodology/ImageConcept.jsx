@@ -14,8 +14,8 @@ function ImageConcept({ gatsbyImage, title, data }) {
 				/>
 				<div>
 					<h3>¿Cómo funciona</h3>
-					{data.concept.map((p) => (
-						<p>{p}</p>
+					{data.concept.map((p, index) => (
+						<p key={index}>{p}</p>
 					))}
 				</div>
 			</div>

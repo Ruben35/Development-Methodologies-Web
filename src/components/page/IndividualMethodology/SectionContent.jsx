@@ -9,15 +9,14 @@ function SectionContent({ data }) {
 			<h3>{header}</h3>
 			<p>{bodyCopy}</p>
 			<div>
-				{content.map((item) =>
+				{content.map((item, index) =>
 					item.type === "p" ? (
-						<p>{item.p}</p>
+						<p key={index}>{item.p}</p>
 					) : (
-						<ul>
-							{" "}
-							{item.list.map((listItem) => (
-								<li>{listItem}</li>
-							))}{" "}
+						<ul key={index}>
+							{item.list.map((listItem, index) => (
+								<li key={index}>{listItem}</li>
+							))}
 						</ul>
 					)
 				)}
