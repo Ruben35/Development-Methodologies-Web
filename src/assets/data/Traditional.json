@@ -43,5 +43,53 @@
 				]
 			}
 		]
+	},
+	{
+		"title": "Espiral",
+		"imagePath": "images/Methodologies/Traditional/Espiral.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Modelo de proceso de software evolutivo donde se pueden utilizar prototipos y unirlos para crecer la complejidad del sistema que se quiere desarrollar.",
+					"Proporciona el potencial para el desarrollo rápido de versiones incrementales del software."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿De qué se compone?",
+				"bodyCopy": "Cada vuelta se divide en 4 sectores:",
+				"content": [
+					{
+						"type": "numberList",
+						"list": [
+							"**Planificación:** determinación de los objetivos, alternativas y restricciones.",
+							"**Análisis de riesgo:** análisis de alternativas e identificación/resolución de riesgos.",
+							"**Ingeniería o implementación:** desarrollo del producto hasta \"el siguiente nivel\".",
+							"**Evaluación:** valoración por parte del cliente de los resultados obtenidos."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"El proyecto es grande.",
+					"Se quiere que las liberaciones de software sean frecuentes.",
+					"Aplica la creación de un prototipo.",
+					"Es primordial un control de riesgos y costos.",
+					"En proyectos catalogados de riesgo medio-alto y alto.",
+					"Los requisitos son poco claros y complejos.",
+					"Hay un alto grado de cambios y estos pueden aparecer en cualquier momento.",
+					"El compromiso de proyecto a largo plazo está comprometido, bien sea por razones económicas u otras."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"Fuente: Desconocido. (septiembre 2013). ¿Qué es una metodología de desarrollo de Software?. [Online]. Disponible en: https://www.4rsoluciones.com/blog/una-metodologia-desarrollo-software/"
+				]
+			}
+		]
 	}
 ]

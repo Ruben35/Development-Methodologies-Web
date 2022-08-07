@@ -6,7 +6,8 @@
 			{
 				"type": "ImageConcept",
 				"concept": [
-					"La metodología XP (del Inglés “eXtreme Programming”)  es una metodología iterativa creada por Kent Beck , Ron Jeffries y Ward Cunningham a principios de la década de los 2000. Aquí se busca la participación activa de los involucrados en el proceso de gestión de incidencias en la especificación y priorización de los requerimientos del sistema."
+					"La metodología XP (del Inglés “eXtreme Programming”)  es una metodología iterativa creada por Kent Beck , Ron Jeffries y Ward Cunningham a principios de la década de los 2000.",
+					"Aquí se busca la participación activa de los involucrados en el proceso de gestión de incidencias en la especificación y priorización de los requerimientos del sistema."
 				]
 			},
 			{
@@ -17,10 +18,10 @@
 					{
 						"type": "list",
 						"list": [
-							"Entender lo que el cliente necesita > Fase de Exploración",
-							"Estimar el esfuerzo > Fase de Planificación",
-							"Crear la solución > Fase de Iteraciones",
-							"Entregar el producto final al cliente > Fase de puesta en producción"
+							"**Fase de Exploración:** Entender lo que el cliente necesita.",
+							"**Fase de Planificación:** Estimar el esfuerzo.",
+							"**Fase de Iteraciones:** Crear la solución.",
+							"**Fase de puesta en producción:** Entregar el producto final al cliente."
 						]
 					},
 					{
@@ -28,12 +29,12 @@
 						"p": ["Las 4 etapas que sigue la Programación Extrema:"]
 					},
 					{
-						"type": "list",
+						"type": "numberList",
 						"list": [
-							"Planificación: toma como referencia la identificación de la historia del usuario con pequeñas versiones que se irán revisando en periodos cortos con el fin de obtener un software funcional.",
-							"Diseño: trabaja el código orientado a objetivos y, sobre todo, usando los recursos necesarios para que funcione.",
-							"Codificación: se refiere al proceso de programación organizada en parejas, estandarizada y que resulte en un código universal entendible.",
-							"Pruebas: consiste en un testeo automático y continuo en el que el cliente tiene voz para validar y proponer. Es, en pocas palabras, la prueba de aceptación."
+							"**Planificación:** toma como referencia la identificación de la historia del usuario con pequeñas versiones que se irán revisando en periodos cortos con el fin de obtener un software funcional.",
+							"**Diseño:** trabaja el código orientado a objetivos y, sobre todo, usando los recursos necesarios para que funcione.",
+							"**Codificación:** se refiere al proceso de programación organizada en parejas, estandarizada y que resulte en un código universal entendible.",
+							"**Pruebas:** consiste en un testeo automático y continuo en el que el cliente tiene voz para validar y proponer. Es, en pocas palabras, la prueba de aceptación."
 						]
 					}
 				]
@@ -63,10 +64,10 @@
 			{
 				"type": "specialSection",
 				"content": [
-					"Requisitos de software que cambian dinámicamente",
-					"Riesgos causados por proyectos de tiempo fijo usando nueva tecnología",
-					"Equipo de desarrollo extendido pequeño y ubicado en el mismo lugar",
-					"La tecnología que está utilizando permite pruebas unitarias y funcionales automatizadas"
+					"Requisitos de software que cambian dinámicamente.",
+					"Riesgos causados por proyectos de tiempo fijo usando nueva tecnología.",
+					"Equipo de desarrollo extendido pequeño y ubicado en el mismo lugar.",
+					"La tecnología que está utilizando permite pruebas unitarias y funcionales automatizadas."
 				]
 			},
 			{
@@ -75,6 +76,49 @@
 					"https://www.digite.com/es/agile/programacion-extrema-xp/",
 					"https://proagilist.es/blog/agilidad-y-gestion-agil/agile-scrum/la-metodologia-xp/",
 					"https://orientacion.universia.edu.pe/infodetail/orientacion/consejos/que-es-xp-y-como-usarlo-en-el-desarrollo-de-un-proyecto-6157.html"
+				]
+			}
+		]
+	},
+	{
+		"title": "Iterative e Incremental",
+		"imagePath": "images/Methodologies/Agile/Incremental.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"El proyecto se planifica en diversos bloques temporales llamados iteraciones.",
+					"Las iteraciones se pueden entender como mini proyectos: en todas las iteraciones se repite un proceso de trabajo similar (de ahí el nombre “iterativo”) para proporcionar un resultado completo sobre producto final, de manera que el cliente pueda obtener los beneficios del proyecto de forma incremental. Para ello, cada requisito se debe completar en una única iteración: el equipo debe realizar todas las tareas necesarias para completarlo y que esté preparado para ser entregado al cliente con el mínimo esfuerzo necesario. De esta manera no se deja para el final del proyecto ninguna actividad arriesgada relacionada con la entrega de requisitos."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Cómo se generan las iteraciones?",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"En cada iteración el equipo evoluciona el producto (hace una entrega incremental) a partir de los resultados completados en las iteraciones anteriores, añadiendo nuevos objetivos/requisitos o mejorando los que ya fueron completados. Un aspecto fundamental para guiar el desarrollo iterativo e incremental es la priorización de los objetivos/requisitos en función del valor que aportan al cliente.",
+							"A través de estas estrategias, las integraciones de los incrementos deben ser funcionales o con flujo de procesamiento. La integración funcional, organiza los incrementos con las principales capacidades del sistema de cualquier fase, mientras que, mediante la integración por flujo de procesamiento, abarca un subconjunto de interfaces totales durante la fase de integración dada"
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Cualquier tipo de proyecto que tenga la necesidad de entregas graduales.",
+					"Se quiere que las liberaciones de software sean frecuentes.",
+					"Aplica la creación de un prototipo.",
+					"Es primordial un control de riesgos y costos.",
+					"Los requisitos son cambiantes.",
+					"Posibilidad de tener módulos pequeños para entregas cortas"
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"http://ri.uaemex.mx/bitstream/handle/20.500.11799/99005/TESIS+Aplicaci%F3n+del+Modelo+Incremental+Para+el+Desarrollo+del.pdf;jsessionid=82998BB2AAAB94539773040BB4976245?sequence=1A"
 				]
 			}
 		]
