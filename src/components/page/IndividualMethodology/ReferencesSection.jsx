@@ -1,6 +1,7 @@
 import React from "react"
 import { Container } from "../../"
 import * as styles from "../../../styles/individualMethodology.module.css"
+import ReferenceFormatter from "../../utils/ReferenceFormatter"
 
 function ReferencesSection({ data }) {
 	return (
@@ -10,9 +11,7 @@ function ReferencesSection({ data }) {
 				<ul>
 					{data.content.map((item, index) => (
 						<li key={index}>
-							<a href={item} target='_blank' rel='noreferrer'>
-								{item}
-							</a>
+							<ReferenceFormatter>{item}</ReferenceFormatter>
 						</li>
 					))}
 				</ul>
