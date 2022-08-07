@@ -11,9 +11,11 @@ function ImageConcept({ gatsbyImage, title, data }) {
 				<GatsbyImage
 					image={gatsbyImage}
 					alt={title}
-					className={styles.imageStyle}
+					className={styles.imageContainer}
+					imgClassName={styles.imageStyle}
+					objectFit='fill'
 				/>
-				<div>
+				<div className={styles.concept}>
 					<h3>¿Cómo funciona</h3>
 					{data.concept.map((p, index) => (
 						<TextFormatter key={index} wrapWith='p'>
