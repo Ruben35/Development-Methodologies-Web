@@ -2,6 +2,11 @@
     margin-bottom: 5px;
 }
 
+.wrapMethodology p, .wrapMethodology li{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .wrapMethodology ul{
     list-style: none;
     padding-left: 30px;
@@ -33,15 +38,6 @@
     color: var(--primaryNormal);
     font-weight: var(--boldFont);
 }
-
-/* .image_Concept{
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap:20px;
-    align-items: center;
-    height: auto;
-} */
 
 .image_Concept{
     margin-top: 30px;
@@ -86,4 +82,10 @@
 
 .references a:hover{
     color: var(--primaryStrong);
+}
+
+.references ul {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }
