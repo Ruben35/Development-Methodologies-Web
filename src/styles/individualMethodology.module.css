@@ -2,20 +2,21 @@
     margin-bottom: 5px;
 }
 
-.wrapMethodology li{
-    margin-bottom: 10px
-}
-
 .wrapMethodology ul{
     list-style: none;
     padding-left: 30px;
 }
 
+.wrapMethodology ol{
+    padding-left: 30px;
+}
+
 .wrapMethodology li{
+    margin-bottom: 10px;
     position: relative; 
 }
 
-.wrapMethodology li::before{
+.wrapMethodology ul li::before{
     content: "\2022";
     color: var(--primaryNormal);
     font-weight: bold;
@@ -26,6 +27,11 @@
     position: absolute;
     left: 0.7rem;
     top: -0.7rem;
+}
+
+.wrapMethodology ol li::marker{
+    color: var(--primaryNormal);
+    font-weight: var(--boldFont);
 }
 
 .image_Concept{

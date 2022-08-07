@@ -19,6 +19,14 @@ function SectionContent({ data }) {
 								</TextFormatter>
 							))}
 						</div>
+					) : item.type === "numberList" ? (
+						<ol key={index}>
+							{item.list.map((listItem, index) => (
+								<TextFormatter key={index} wrapWith='li'>
+									{listItem}
+								</TextFormatter>
+							))}
+						</ol>
 					) : (
 						<ul key={index}>
 							{item.list.map((listItem, index) => (
