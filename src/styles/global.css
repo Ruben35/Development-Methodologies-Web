@@ -74,7 +74,7 @@ h3 {
     font-size: 1.5rem;
 }
 
-p, .normalText{
+p, .normalText, li{
     line-height: 26px;
     letter-spacing: 0.13px;
     margin: 0px;

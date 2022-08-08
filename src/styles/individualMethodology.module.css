@@ -5,6 +5,7 @@
 .wrapMethodology p, .wrapMethodology li{
     text-align: justify;
     text-justify: inter-word;
+    white-space: pre-line;
 }
 
 .wrapMethodology ul{
@@ -17,7 +18,7 @@
 }
 
 .wrapMethodology li{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     position: relative; 
 }
 
@@ -31,7 +32,7 @@
     font-size: 2rem;
     position: absolute;
     left: 0.7rem;
-    top: -0.7rem;
+    top: -0.1rem;
 }
 
 .wrapMethodology ol li::marker{
@@ -69,6 +70,7 @@
 @media screen and (max-width: 1024px) {
     .image_Concept{
         flex-direction: column;
+        gap: 30px;
     }
 }
 
