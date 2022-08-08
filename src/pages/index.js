@@ -9,7 +9,7 @@ const HomePage = () => {
 	return (
 		<>
 			<Container className={styles.welcome}>
-				<h1>Metodologias de Desarrollo de Proyectos</h1>
+				<h1>Metodologías de Desarrollo de Proyectos</h1>
 				<StaticImage
 					src='../assets/images/Croods The Feedback.png'
 					className={styles.croodsImage}
