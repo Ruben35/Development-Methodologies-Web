@@ -3,11 +3,13 @@ const agiles = require("./src/assets/data/Agil.json")
 const traditional = require("./src/assets/data/Traditional.json")
 
 function pageNameFormat(pageName) {
-	return pageName
+	let name = pageName
 		.normalize("NFD")
 		.replace(/[\u0300-\u036f]/g, "")
 		.toLowerCase()
 		.replace(new RegExp(" ", "g"), "-")
+
+	return name[0].toUpperCase() + name.slice(1)
 }
 
 exports.createPages = async ({ actions, graphql }) => {
@@ -52,7 +54,7 @@ exports.createPages = async ({ actions, graphql }) => {
 		methodology.type = "Tradicional"
 
 		createPage({
-			path: `/${pageNameFormat(methodology.title)}`,
+			path: `/Metodologias/${pageNameFormat(methodology.title)}`,
 			component: methodologyTemplate,
 			context: methodology,
 		})
@@ -66,7 +68,7 @@ exports.createPages = async ({ actions, graphql }) => {
 		methodology.type = "Ágil"
 
 		createPage({
-			path: `/${pageNameFormat(methodology.title)}`,
+			path: `/Metodologias/${pageNameFormat(methodology.title)}`,
 			component: methodologyTemplate,
 			context: methodology,
 		})

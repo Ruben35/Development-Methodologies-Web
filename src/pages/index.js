@@ -18,7 +18,7 @@ const HomePage = () => {
 					alt='Croods The FeedBack'
 				/>
 				<p>¡Un recurso digital para conocerlas y saber cómo aplicarlas!</p>
-				<Link to='/Methodologies'>
+				<Link to='/Metodologias'>
 					<button>¡Aprender ahora!</button>
 				</Link>
 			</Container>

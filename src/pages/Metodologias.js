@@ -17,13 +17,13 @@ function Methodologies({ data }) {
 			item.image = data.traditionalImages.nodes.find(
 				(element) => element.relativePath === item.imagePath
 			)
-			item.to = pageNameFormat(item.title)
+			item.to = "Metodologias/" + pageNameFormat(item.title)
 		})
 		data.allAgilJson.nodes.forEach((item) => {
 			item.image = data.agileImages.nodes.find(
 				(element) => element.relativePath === item.imagePath
 			)
-			item.to = pageNameFormat(item.title)
+			item.to = "Metodologias/" + pageNameFormat(item.title)
 		})
 		setDataTraditional(data.allTraditionalJson.nodes)
 		setDataAgile(data.allAgilJson.nodes)
