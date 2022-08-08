@@ -8,7 +8,7 @@ function SectionContent({ data }) {
 	return (
 		<Container className={styles.wrapMargin}>
 			<h3>{header}</h3>
-			<p>{bodyCopy}</p>
+			<TextFormatter wrapWith='p'>{bodyCopy}</TextFormatter>
 			<div>
 				{content.map((item, index) =>
 					item.type === "p" ? (

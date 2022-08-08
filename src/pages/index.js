@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import { Container, InfoCard } from "../components"
 import Seo from "../components/utils/Seo"
 import * as styles from "../styles/home.module.css"
@@ -18,7 +18,7 @@ const HomePage = () => {
 					alt='Croods The FeedBack'
 				/>
 				<p>¡Un recurso digital para conocerlas y saber cómo aplicarlas!</p>
-				<Link to='/Methodologies'>
+				<Link to='/Metodologias'>
 					<button>¡Aprender ahora!</button>
 				</Link>
 			</Container>

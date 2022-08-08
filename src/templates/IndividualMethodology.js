@@ -1,5 +1,6 @@
 import React from "react"
 import { HeroWithType } from "../components"
+import Seo from "../components/utils/Seo"
 import * as styles from "../styles/individualMethodology.module.css"
 import {
 	ImageConcept,
@@ -37,6 +38,12 @@ const SelectContent = ({ title, image, content }) => {
 	if (type === "references") return <ReferencesSection data={content} />
 
 	return <div>No Content</div>
+}
+
+export const Head = ({ pageContext }) => {
+	console.log(pageContext)
+
+	return <Seo title={pageContext.title} />
 }
 
 export default IndividualMethodology

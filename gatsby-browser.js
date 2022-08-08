@@ -11,3 +11,9 @@ import MainLayout from "./src/layouts/MainLayout"
 export const wrapRootElement = ({ element }) => (
 	<MainLayout>{element}</MainLayout>
 )
+
+export const onRouteUpdate = ({ location, prevLocation }) => {
+	//Scrolling at top when changing page
+	const mainContainer = document.getElementById("main")
+	mainContainer.scrollTo(0, 0)
+}

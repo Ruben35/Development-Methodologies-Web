@@ -5,7 +5,12 @@ import PropTypes from "prop-types"
 //* Ref: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
 
 function Seo({ title }) {
-	return <title>{title}</title>
+	return (
+		<>
+			<title>{title}</title>
+			<meta name='theme-color' content='#FFBC25' />
+		</>
+	)
 }
 
 Seo.propTypes = {
