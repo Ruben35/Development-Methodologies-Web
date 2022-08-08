@@ -45,15 +45,10 @@ body{
     color: var(--textNormal);
     background-color: var(--background-L0);
     font-size: 1rem;
-    overflow: unset;
 }
 
 main{
-    position: absolute;
     width: 100%;
-    bottom: 0;
-    top:60px;
-    overflow-y: scroll;
 }
 
 h1,h2,h3{
@@ -140,7 +135,6 @@ nav{
     background-color: var(--primaryStrong);
     color:var(--textContrast);
     height: 60px;
-    overflow: hidden;
     position: sticky;
     top: 0;
     box-shadow: 0px 3px 9px rgba(43, 40, 50, 0.16);

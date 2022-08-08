@@ -54,4 +54,12 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
 
 
-<!-- TODO: SEO, favicon, color mobile, animations, update README.md -->
+<!-- TODO: SEO, favicon, hide chrome menu mobile, animations, update README.md -->
+<!-- 
+  https://branch.com.co/marketing-digital/meta-tags-en-seo-que-son-y-para-que-sirven/
+  https://rockcontent.com/es/blog/canonical-tag/
+  https://ogp.me/
+  https://placid.app/blog/how-to-get-large-facebook-twitter-link-thumbnails
+  https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-seo-component/
+  https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
+ -->
