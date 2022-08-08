@@ -1,5 +1,105 @@
 [
 	{
+		"title": "Cascada",
+		"imagePath": "images/Methodologies/Traditional/Cascada.jpg",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"La metodología en cascada es un proceso secuencial y lineal para la gestión de proyectos. Consiste en varias fases separadas. Ninguna fase empieza hasta que haya concluido la fase anterior, y la finalización de cada fase es definitiva: la gestión en cascada no te permite regresar a una fase previa. La única forma de revisar una fase es volver a empezar desde la fase uno.",
+					"A continuación se enuncian cada una de las fases:"
+				]
+			},
+			{
+				"type": "section",
+				"header": "1. Recopilación y documentación de los requisitos",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"En esta etapa, se debe recopilar información integral sobre lo que requiere el proyecto. La información se puede reunir de distintas maneras, desde entrevistas y cuestionarios hasta lluvias de ideas interactivas. Al final de esta fase, los requisitos del proyecto deben quedar claros, y se debe tener un documento de requisitos que se haya distribuido a el equipo."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "2. Diseño del sistema",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Con los requisitos definidos, el equipo diseña el sistema. No hay ninguna codificación durante esta fase, pero el equipo establece especificaciones, tales como el lenguaje de programación o los requisitos de hardware."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "3. Implementación",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"En esta fase, se hace la codificación. Los programadores toman la información de la etapa anterior y crean un producto funcional. Generalmente implementan el código en pequeñas porciones, las que se integran al final de esta fase o al principio de la siguiente."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "4. Pruebas",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Una vez que está listo todo el código, pueden empezar las pruebas del producto. Los encargados de las pruebas encuentran los problemas y los informan metódicamente. Si surgen problemas graves, el proyecto tal vez deba regresar a la fase uno para ser evaluado nuevamente."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "5. Entrega/Instalación",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"En esta fase, el producto está completo y el equipo presenta los entregables que deberán instalarse o lanzarse."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "6. Mantenimiento",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"El producto se ha entregado al cliente y está en uso. A medida que surjan problemas, tal vez el equipo necesitará crear parches y actualizaciones para solucionarlos. Nuevamente, si surgen problemas graves, es posible que se deba regresar a la fase uno."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Proyectos que requieran tener un orden y organización",
+					"Es útil cuando no se tiene demasiada experiencia",
+					"Es óptima para tiempos de desarrollo",
+					"Proyectos en los que los requerimientos se tengan de manera clara"
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://www.lucidchart.com/blog/es/metodologia-gestion-proyectos-cascada"
+				]
+			}
+		]
+	},
+	{
 		"title": "Basado en Componentes",
 		"imagePath": "images/Methodologies/Traditional/Basado en Componentes.png",
 		"content": [
@@ -53,6 +153,322 @@
 				"content": [
 					"https://sites.google.com/site/lawebdelsoftware/ingenieria-de-software-1/unidad-vi",
 					"https://matriarm.wordpress.com/desarrollo-basado-en-componentes/"
+				]
+			}
+		]
+	},
+	{
+		"title": "Modelo en V",
+		"imagePath": "images/Methodologies/Traditional/ModeloV.jpg",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Es un proceso que representa la secuencia de pasos en el desarrollo del ciclo de vida de un proyecto. Contribuye al cumplimiento integral de las funcionalidades, especificaciones y diseño del software, en conformidad con lo requerido por el cliente.",
+					"Inspirado en el modelo en cascada (Waterfall model en inglés), representa todo el ciclo de vida de un proyecto y se basa en el mismo principio de gestión secuencial y lineal."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Para qué es utilizado?",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Utilizado para ejecutar y probar procesos en una secuencia. También conocido como modelo de verificación y validación, los directores de proyecto pueden utilizar este método cuando crean software que requiere pruebas rigurosas. Esto se debe a que cada fase del ciclo de desarrollo se corresponde con una fase de prueba en el modelo V. Un equipo completa cada fase de una en una realizando la prueba correspondiente inmediatamente después del desarrollo. Esto puede ayudar a los equipos a identificar áreas de mejora, optimizar los programas y garantizar la calidad del proyecto final.",
+							"Consta de:"
+						]
+					},
+					{
+						"type": "list",
+						"list": [
+							"Una fase descendente donde se señalan las necesidades del proyecto.",
+							"Una fase ascendente donde se especifican las verificaciones de las necesidades."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fases del Modelo V",
+				"bodyCopy": "En primer lugar, el modelo V define el **curso de un proyecto** en fases individuales cada vez más detalladas:",
+				"content": [
+					{
+						"type": "list",
+						"list": [
+							"Al principio del proyecto, el modelo prevé un análisis de las especificaciones del sistema planificado (fase de especificaciones).",
+							"El proyecto se completa después con requisitos funcionales y no funcionales para la arquitectura del sistema (fase funcional).",
+							"A esta fase le sigue el diseño del sistema, en el que se planifican los componentes y las interfaces de este (fase de diseño).",
+							"Una vez completadas estas fases, se puede diseñar en detalle la arquitectura del software (codificación)."
+						]
+					},
+					{
+						"type": "p",
+						"p": [
+							"Es ahora cuando, de acuerdo con estos planes, comienza el desarrollo en sí del software. A continuación, tendrán lugar las fases de **control de la calidad**, también llamadas de verificación o validación, que siempre están relacionadas con cada una de las fases de desarrollo. El método V abarca las siguientes tareas:"
+						]
+					},
+					{
+						"type": "list",
+						"list": [
+							"Pruebas de unidad",
+							"Pruebas de integración",
+							"Integración del sistema",
+							"Validación"
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Cuando se necesita comunicación de las partes involucradas mediante los términos y responsabilidades.",
+					"Proyectos en los que no se deban tomar muchos riesgos en su realización.",
+					"Proyectos que requieran calidad de producción alta.",
+					"Proyectos que requieran ahorro de costes."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/modelo-v/",
+					"https://historiadelaempresa.com/modelo-v"
+				]
+			}
+		]
+	},
+	{
+		"title": "RUP",
+		"imagePath": "images/Methodologies/Traditional/RUP.jpg",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"RUP significa Rational Unified Process  Este término es un proceso creado por la empresa de ingeniería de software, Rational Software Corporation, para guiar el desarrollo de un programa. El RUP es una metodología con prácticas Lean, así como Scrum y Extreme Programming (XP). Estos métodos tienen en común el uso de buenas prácticas que ayudan a obtener técnicas rutinarias y productivas."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Cómo funciona?",
+				"bodyCopy": "Es una metodología de desarrollo de software orientado a objetos que establece las bases, plantillas, y ejemplos para todos los aspectos y fases de desarrollo del software. RUP es herramientas de la ingeniería de software que combinan los aspectos del proceso de desarrollo (como fases definidas, técnicas, y prácticas) con otros componentes de desarrollo (como documentos, modelos, manuales, código fuente, etc.) dentro de un framework unificado. RUP establece cuatro fases de desarrollo cada una de las cuales está organizada en varias iteraciones separadas que deben satisfacer criterios definidos antes de emprender la próxima fase.",
+				"content": [
+					{
+						"type": "p",
+						"p": ["El modelo se detalla desde tres perspectivas:"]
+					},
+					{
+						"type": "list",
+						"list": ["Dinámica", "Estática", "Práctica"]
+					},
+					{
+						"type": "p",
+						"p": [
+							"Es en la perspectiva dinámica que compone el ciclo de vida del proyecto, en el que se divide en 4 fases secuenciales, denominadas en: inicio, elaboración, construcción y transición.",
+							"A continuación, se muestra cada una de ellas."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Inicio",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Es en este momento que se elabora la planificación del proyecto con los stakeholders, son ellos quienes han descrito los requisitos para el sistema a desarrollar.",
+							"La etapa se realiza en un corto período de tiempo. Guía al equipo para analizar la viabilidad del proyecto y cómo empezar a definir los primeros pasos. Usando este concepto tenemos una metodología llamada Lean Inception."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Elaboración",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"En la fase de elaboración, o elaboración, busca relevar casos, documentación, estudios base, es decir, modelos para orientar el proyecto. Esto es para orientar cuál será la mejor manera de acuerdo con las premisas de los interesados.",
+							"Tras todo este conocimiento, se elabora un plan de proyecto, con todas las características y especificidades, de la forma más detallada posible."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Construcción",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Ahí es cuando se termina la construcción del proyecto, por eso tiene ese nombre. El principal objetivo es la elaboración del producto. Dado que el método se basa en el desarrollo de software, estamos hablando de crear códigos.",
+							"Además, es en esta etapa que se realizan las primeras pruebas para que se prepare la base inicial para la etapa de transición."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Transición",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"La transición se expresa como transición, es decir, la fase que pasa el proyecto desde el punto de prueba hasta la implementación.",
+							"Después de todas las pruebas realizadas y con el objeto listo, llega el momento de ponerlo a disposición del usuario final, es decir, la entrega del proyecto.",
+							"Además de la entrega, esta fase incluye la realización de capacitaciones y asegurar que el objeto final resuelva todos los problemas de las partes interesadas."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "A tomar en cuenta..",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Dadas todas las fases que componen un proyecto utilizando la metodología RUP, es importante destacar que en el desarrollo de estas actividades todo el equipo necesita estar orientado a algunas prácticas y realizar los artefactos de forma alineada."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Se tengan procesos orientados a casos de uso.",
+					"Desarrollar el software de forma iterativa.",
+					"Gestionar requisitos.",
+					"Utilizar arquitecturas basadas en componentes.",
+					"Modelar visualmente el software.",
+					"Verificar la calidad del software.",
+					"Controlar los cambios de software."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/175/A8%20Cap%C3%ADtulo%205.pdf?sequence=8",
+					"https://lean-management.site/rup/"
+				]
+			}
+		]
+	},
+	{
+		"title": "Por Prototipos",
+		"imagePath": "images/Methodologies/Traditional/Prototipo.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"La metodología de prototipado está relacionada con la mejora continua y el Ciclo de Deming que consiste en un proceso iterativo enfocado en diseñar, implementar, medir y ajustar un plan.",
+					"En el caso de un prototipo, se podría aplicar 5 etapas en el diseño e implementación de una idea (previamente priorizada para pasar al proceso de prototipado). Esta metodología se puede aplicar en el desarrollo de nuevos negocios, prototipado web, prototipado de apps, entre otros entornos."
+				]
+			},
+			{
+				"type": "section",
+				"header": "Etapas para Diseñar e Implementar un Prototipo",
+				"content": [
+					{
+						"type": "numberList",
+						"list": [
+							"**Definición de los requerimientos y variables:** Lo primero es saber qué se va a explorar, cuál es el propósito del prototipo, qué elementos se requieren.",
+							"**Definición de las herramientas para el diseño y testeo:** Tomando como ejemplo un prototipado web se pueden utilizar herramientas como inVision, UXPin, Figma o incluso herramientas que no requieren conocimientos de diseño o código, como proto.io. En el caso de un prototipado de apps existen herramientas como Marvelapp.",
+							"**Diseño del prototipo:** Se analiza qué tipo de prototipo es el más adecuado y evalúa factores como el diseño, montaje, ergonomía, materiales, formas, dimensiones, entre otros.",
+							"**Test del prototipo:** Se da a conocer el prototipo a los usuarios, se observa y registra el desempeño del prototipo, y se permite al usuario aportar ideas.",
+							"**Análisis de los resultados y aprendizajes:** A partir de la definición inicial y el desempeño del prototipo, se perfecciona el concepto de solución."
+						]
+					},
+					{
+						"type": "p",
+						"p": [
+							"El prototipo construido debe ser lo más visual y tangible posible para generar una conversación con las personas para las cuales estamos diseñando. Además, en un entorno ágil se prioriza pasar del boceto al prototipo porque el objetivo es dedicar mayor tiempo a la creación de activos interactivos versus objetos intangibles e inactivos."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Tipos de Prototipos",
+				"bodyCopy": "Dependiendo de los objetivos y las etapas del proyecto, se pueden diseñar prototipos rápidos o de alta fidelidad. Algunas diferencias son:",
+				"content": [
+					{
+						"type": "list",
+						"list": [
+							"**Prototipo de baja resolución o fidelidad:** Cuando nos referimos a prototipos rápidos o Lean UX, por lo general estamos hablando de prototipos de baja fidelidad que están enfocados en el refinamiento de la interacción no en perfeccionar los detalles de implementación de la idea. Un prototipo de baja fidelidad permite iterar más rápido en comparación con un prototipo de alta fidelidad y es más barato porque se invierten menos recursos.",
+							"**Prototipo de alta fidelidad:** Este tipo de prototipo se puede utilizar en etapas más avanzadas de diseño para validar aspectos y detalles del producto final, por ejemplo, imagen de marca. Un prototipo de mayor fidelidad puede ayudar a equipos de ingeniería a comprender el producto final con una mayor precisión, lo que provoca una reducción de tiempo en estimaciones y desarrollo."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Proyectos que requieran entregas constantes.",
+					"Proyectos que pueden ser divididos modularmente.",
+					"Proyectos que requieran de un vistazo rápido del desarrollo.",
+					"Debe ser un sistema con el que se pueda experimentar.",
+					"Debe ser comparativamente barato (menor que el 10%).",
+					"Debe desarrollarse rápidamente.",
+					"Énfasis en la interfaz de usuario.",
+					"Equipo de desarrollo reducido.",
+					"Herramientas y lenguajes adecuadas."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://freed.tools/blogs/ux-cx/prototipo#:~:text=cumple%20o%20no.-,Metodolog%C3%ADa%20de%20prototipo%20o%20prototipado,medir%20y%20ajustar%20un%20plan.",
+					"https://www.ecured.cu/Modelo_de_prototipos"
+				]
+			}
+		]
+	},
+	{
+		"title": "Mobile-D",
+		"imagePath": "images/Methodologies/Traditional/Mobile-D.jpg",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"El objetivo de esta metodología es conseguir ciclos de desarrollo muy rápidos en equipos muy pequeños. Se basa en metodologías para el desarrollo de aplicaciones móviles conocidas pero aplicadas de forma estricta como: extreme programming, Crystal Methodologies y Rational Unified Process.",
+					"Tiene distintas fases: exploración, inicialización, fase de producto, fase de estabilización y la fase de pruebas. Cada una tiene un día de planificación y otro de entrega."
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fases de Mobile-D",
+				"bodyCopy": "A continuación se expone detalladamente cada una de las fases:",
+				"content": [
+					{
+						"type": "numberList",
+						"list": [
+							"**Fase exploración:** Se centra la atención en la planificación y en los conceptos básicos del proyecto. Aquí es donde se define el alcance del proyecto y su establecimiento con las funcionalidades donde se quiere llegar.",
+							"**Fase de iniciación:** Se configura el proyecto identificando y preparando todos los recursos necesarios como hemos comentado anteriormente en esta fase la dedicaremos un día a la planificación y el resto al trabajo y publicación.",
+							"**Fase de producto:** Se repiten iterativamente las subfases. Se usa el desarrollo dirigido por pruebas (TDD), antes de iniciar el desarrollo de una funcionalidad debe existir una prueba que verifique su funcionamiento. En esta fase podemos decir que se lleva a acabo toda la implementación.",
+							"**Fase de estabilización:** Se realizan las acciones de integración para enganchar los posibles módulos separados en una única aplicación.",
+							"**Fase de pruebas:** Una vez parado totalmente el desarrollo se pasa una fase de testeo hasta llegar a una versión estable según lo establecido en las primeras fases por el cliente. Si es necesario se reparan los errores, pero no se desarrolla nada nuevo."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Aplicaciones móviles.",
+					"Tiempos de producción cortos.",
+					"Aplicaciones híbridas.",
+					"Equipos que tengan bajo número de integrantes.",
+					"Aplicaciones que se puedan modula izar de forma muy pequeña.",
+					"Módulos que puedan ser desarrollados de manera rápida."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://www.syntonize.com/metodologias-desarrollo-de-aplicaciones-moviles/#:~:text=Mobile%2DD,Methodologies%20y%20Rational%20Unified%20Process",
+					"http://dspace.unach.edu.ec/handle/51000/7073#:~:text=Mobile%2DD%20es%20una%20metodolog%C3%ADa,proyecto%2C%20permitiendo%20la%20reducci%C3%B3n%20de"
 				]
 			}
 		]
@@ -185,186 +601,6 @@
 		]
 	},
 	{
-		"title": "Cascada",
-		"imagePath": "images/Methodologies/Traditional/Cascada.jpg",
-		"content": [
-			{
-				"type": "ImageConcept",
-				"concept": [
-					"La metodología en cascada es un proceso secuencial y lineal para la gestión de proyectos. Consiste en varias fases separadas. Ninguna fase empieza hasta que haya concluido la fase anterior, y la finalización de cada fase es definitiva: la gestión en cascada no te permite regresar a una fase previa. La única forma de revisar una fase es volver a empezar desde la fase uno.",
-					"A continuación se enuncian cada una de las fases:"
-				]
-			},
-			{
-				"type": "section",
-				"header": "1. Recopilación y documentación de los requisitos",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"En esta etapa, se debe recopilar información integral sobre lo que requiere el proyecto. La información se puede reunir de distintas maneras, desde entrevistas y cuestionarios hasta lluvias de ideas interactivas. Al final de esta fase, los requisitos del proyecto deben quedar claros, y se debe tener un documento de requisitos que se haya distribuido a el equipo."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "2. Diseño del sistema",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"Con los requisitos definidos, el equipo diseña el sistema. No hay ninguna codificación durante esta fase, pero el equipo establece especificaciones, tales como el lenguaje de programación o los requisitos de hardware."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "3. Implementación",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"En esta fase, se hace la codificación. Los programadores toman la información de la etapa anterior y crean un producto funcional. Generalmente implementan el código en pequeñas porciones, las que se integran al final de esta fase o al principio de la siguiente."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "4. Pruebas",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"Una vez que está listo todo el código, pueden empezar las pruebas del producto. Los encargados de las pruebas encuentran los problemas y los informan metódicamente. Si surgen problemas graves, el proyecto tal vez deba regresar a la fase uno para ser evaluado nuevamente."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "5. Entrega/Instalación",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"En esta fase, el producto está completo y el equipo presenta los entregables que deberán instalarse o lanzarse."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "6. Mantenimiento",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"El producto se ha entregado al cliente y está en uso. A medida que surjan problemas, tal vez el equipo necesitará crear parches y actualizaciones para solucionarlos. Nuevamente, si surgen problemas graves, es posible que se deba regresar a la fase uno."
-						]
-					}
-				]
-			},
-			{
-				"type": "specialSection",
-				"content": [
-					"Proyectos que requieran tener un orden y organización",
-					"Es útil cuando no se tiene demasiada experiencia",
-					"Es óptima para tiempos de desarrollo",
-					"Proyectos en los que los requerimientos se tengan de manera clara"
-				]
-			},
-			{
-				"type": "references",
-				"content": [
-					"https://www.lucidchart.com/blog/es/metodologia-gestion-proyectos-cascada"
-				]
-			}
-		]
-	},
-	{
-		"title": "Modelo en V",
-		"imagePath": "images/Methodologies/Traditional/ModeloV.jpg",
-		"content": [
-			{
-				"type": "ImageConcept",
-				"concept": [
-					"Es un proceso que representa la secuencia de pasos en el desarrollo del ciclo de vida de un proyecto. Contribuye al cumplimiento integral de las funcionalidades, especificaciones y diseño del software, en conformidad con lo requerido por el cliente.",
-					"Inspirado en el modelo en cascada (Waterfall model en inglés), representa todo el ciclo de vida de un proyecto y se basa en el mismo principio de gestión secuencial y lineal."
-				]
-			},
-			{
-				"type": "section",
-				"header": "¿Para qué es utilizado?",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"Utilizado para ejecutar y probar procesos en una secuencia. También conocido como modelo de verificación y validación, los directores de proyecto pueden utilizar este método cuando crean software que requiere pruebas rigurosas. Esto se debe a que cada fase del ciclo de desarrollo se corresponde con una fase de prueba en el modelo V. Un equipo completa cada fase de una en una realizando la prueba correspondiente inmediatamente después del desarrollo. Esto puede ayudar a los equipos a identificar áreas de mejora, optimizar los programas y garantizar la calidad del proyecto final.",
-							"Consta de:"
-						]
-					},
-					{
-						"type": "list",
-						"list": [
-							"Una fase descendente donde se señalan las necesidades del proyecto.",
-							"Una fase ascendente donde se especifican las verificaciones de las necesidades."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "Fases del Modelo V",
-				"bodyCopy": "En primer lugar, el modelo V define el **curso de un proyecto** en fases individuales cada vez más detalladas:",
-				"content": [
-					{
-						"type": "list",
-						"list": [
-							"Al principio del proyecto, el modelo prevé un análisis de las especificaciones del sistema planificado (fase de especificaciones).",
-							"El proyecto se completa después con requisitos funcionales y no funcionales para la arquitectura del sistema (fase funcional).",
-							"A esta fase le sigue el diseño del sistema, en el que se planifican los componentes y las interfaces de este (fase de diseño).",
-							"Una vez completadas estas fases, se puede diseñar en detalle la arquitectura del software (codificación)."
-						]
-					},
-					{
-						"type": "p",
-						"p": [
-							"Es ahora cuando, de acuerdo con estos planes, comienza el desarrollo en sí del software. A continuación, tendrán lugar las fases de **control de la calidad**, también llamadas de verificación o validación, que siempre están relacionadas con cada una de las fases de desarrollo. El método V abarca las siguientes tareas:"
-						]
-					},
-					{
-						"type": "list",
-						"list": [
-							"Pruebas de unidad",
-							"Pruebas de integración",
-							"Integración del sistema",
-							"Validación"
-						]
-					}
-				]
-			},
-			{
-				"type": "specialSection",
-				"content": [
-					"Cuando se necesita comunicación de las partes involucradas mediante los términos y responsabilidades.",
-					"Proyectos en los que no se deban tomar muchos riesgos en su realización.",
-					"Proyectos que requieran calidad de producción alta.",
-					"Proyectos que requieran ahorro de costes."
-				]
-			},
-			{
-				"type": "references",
-				"content": [
-					"https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/modelo-v/",
-					"https://historiadelaempresa.com/modelo-v"
-				]
-			}
-		]
-	},
-	{
 		"title": "Merise",
 		"imagePath": "images/Methodologies/Traditional/Merise.png",
 		"content": [
@@ -440,124 +676,6 @@
 				"type": "references",
 				"content": [
 					"https://cursos.clavijero.edu.mx/cursos/178_pds/modulo2/contenido/tema2.4.html?opc=3"
-				]
-			}
-		]
-	},
-	{
-		"title": "RUP",
-		"imagePath": "images/Methodologies/Traditional/RUP.jpg",
-		"content": [
-			{
-				"type": "ImageConcept",
-				"concept": [
-					"RUP significa Rational Unified Process  Este término es un proceso creado por la empresa de ingeniería de software, Rational Software Corporation, para guiar el desarrollo de un programa. El RUP es una metodología con prácticas Lean, así como Scrum y Extreme Programming (XP). Estos métodos tienen en común el uso de buenas prácticas que ayudan a obtener técnicas rutinarias y productivas."
-				]
-			},
-			{
-				"type": "section",
-				"header": "¿Cómo funciona?",
-				"bodyCopy": "Es una metodología de desarrollo de software orientado a objetos que establece las bases, plantillas, y ejemplos para todos los aspectos y fases de desarrollo del software. RUP es herramientas de la ingeniería de software que combinan los aspectos del proceso de desarrollo (como fases definidas, técnicas, y prácticas) con otros componentes de desarrollo (como documentos, modelos, manuales, código fuente, etc.) dentro de un framework unificado. RUP establece cuatro fases de desarrollo cada una de las cuales está organizada en varias iteraciones separadas que deben satisfacer criterios definidos antes de emprender la próxima fase.",
-				"content": [
-					{
-						"type": "p",
-						"p": ["El modelo se detalla desde tres perspectivas:"]
-					},
-					{
-						"type": "list",
-						"list": ["Dinámica", "Estática", "Práctica"]
-					},
-					{
-						"type": "p",
-						"p": [
-							"Es en la perspectiva dinámica que compone el ciclo de vida del proyecto, en el que se divide en 4 fases secuenciales, denominadas en: inicio, elaboración, construcción y transición.",
-							"A continuación, se muestra cada una de ellas."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "Fase de Inicio",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"Es en este momento que se elabora la planificación del proyecto con los stakeholders, son ellos quienes han descrito los requisitos para el sistema a desarrollar.",
-							"La etapa se realiza en un corto período de tiempo. Guía al equipo para analizar la viabilidad del proyecto y cómo empezar a definir los primeros pasos. Usando este concepto tenemos una metodología llamada Lean Inception."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "Fase de Elaboración",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"En la fase de elaboración, o elaboración, busca relevar casos, documentación, estudios base, es decir, modelos para orientar el proyecto. Esto es para orientar cuál será la mejor manera de acuerdo con las premisas de los interesados.",
-							"Tras todo este conocimiento, se elabora un plan de proyecto, con todas las características y especificidades, de la forma más detallada posible."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "Fase de Construcción",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"Ahí es cuando se termina la construcción del proyecto, por eso tiene ese nombre. El principal objetivo es la elaboración del producto. Dado que el método se basa en el desarrollo de software, estamos hablando de crear códigos.",
-							"Además, es en esta etapa que se realizan las primeras pruebas para que se prepare la base inicial para la etapa de transición."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "Fase de Transición",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"La transición se expresa como transición, es decir, la fase que pasa el proyecto desde el punto de prueba hasta la implementación.",
-							"Después de todas las pruebas realizadas y con el objeto listo, llega el momento de ponerlo a disposición del usuario final, es decir, la entrega del proyecto.",
-							"Además de la entrega, esta fase incluye la realización de capacitaciones y asegurar que el objeto final resuelva todos los problemas de las partes interesadas."
-						]
-					}
-				]
-			},
-			{
-				"type": "section",
-				"header": "A tomar en cuenta..",
-				"content": [
-					{
-						"type": "p",
-						"p": [
-							"Dadas todas las fases que componen un proyecto utilizando la metodología RUP, es importante destacar que en el desarrollo de estas actividades todo el equipo necesita estar orientado a algunas prácticas y realizar los artefactos de forma alineada."
-						]
-					}
-				]
-			},
-			{
-				"type": "specialSection",
-				"content": [
-					"Se tengan procesos orientados a casos de uso.",
-					"Desarrollar el software de forma iterativa.",
-					"Gestionar requisitos.",
-					"Utilizar arquitecturas basadas en componentes.",
-					"Modelar visualmente el software.",
-					"Verificar la calidad del software.",
-					"Controlar los cambios de software."
-				]
-			},
-			{
-				"type": "references",
-				"content": [
-					"http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/175/A8%20Cap%C3%ADtulo%205.pdf?sequence=8",
-					"https://lean-management.site/rup/"
 				]
 			}
 		]
