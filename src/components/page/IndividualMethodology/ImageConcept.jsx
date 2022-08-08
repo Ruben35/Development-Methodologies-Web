@@ -16,7 +16,7 @@ function ImageConcept({ gatsbyImage, title, data }) {
 					objectFit='fill'
 				/>
 				<div className={styles.concept}>
-					<h3>¿Cómo funciona</h3>
+					<h3>¿Qué es?</h3>
 					{data.concept.map((p, index) => (
 						<TextFormatter key={index} wrapWith='p'>
 							{p}
