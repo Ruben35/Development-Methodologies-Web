@@ -1,4 +1,5 @@
-import * as React from "react"
+import React, { useEffect } from "react"
+import ReactDOM from "react-dom"
 import { Container, InfoCard } from "../components"
 import Seo from "../components/utils/Seo"
 import * as styles from "../styles/home.module.css"
@@ -6,6 +7,13 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const HomePage = () => {
+	useEffect(() => {
+		//Scroll to top
+		const node = document.getElementById("main")
+		console.log(node)
+		ReactDOM.findDOMNode(node).scrollTo(0, 0)
+	}, [])
+
 	return (
 		<>
 			<Container className={styles.welcome}>
