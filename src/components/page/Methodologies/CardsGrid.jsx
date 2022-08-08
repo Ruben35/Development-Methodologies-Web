@@ -9,7 +9,7 @@ const cardsToShow = (breakpoint) => {
 		//Desktop
 		const cardSize = 190 + 21 // CardSize + Gap
 		const cardWrap = breakpoint * 0.86 - 21 // Deleting last gap (not in layout)
-		return Math.round(cardWrap / cardSize) * 2
+		return Math.round(cardWrap / cardSize)
 	} else if (breakpoint >= 550 || breakpoint >= 427) {
 		//Tablet
 		return 6
