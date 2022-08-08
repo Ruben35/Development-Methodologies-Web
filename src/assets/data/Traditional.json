@@ -1,0 +1,187 @@
+[
+	{
+		"title": "Basado en Componentes",
+		"imagePath": "images/Methodologies/Traditional/Basado en Componentes.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Es una metodología que incorpora muchas de las características del modelo en espiral y permite establecer un objetivo mínimo alcanzable. Esta se basa en utilizar componentes existentes o creados por el desarrollador, de manera que también es posible modificar los componentes ya existentes y adecuarlos al proyecto en cuestión, para lograr el objetivo que se quiere alcanzar.",
+					"A diferencia de la metodología en espiral clásica, esta se diferencia en que considera la anexión de elementos que pueden ser externos, y construir aplicaciones mediante el ensamblado de módulos de software reutilizables, los cuales fueron desarrollados de forma independiente a las aplicaciones en las que serán utilizados."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Porqué se usa?",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Permite reutilizar piezas de código preelaborado que permiten realizar diversas tareas, conllevando a diversos beneficios como las mejoras a la calidad, la reducción del ciclo de desarrollo y el mayor retorno sobre la inversión.",
+							"Al comparar la evolución del ambiente de IT con el crecimiento de las metrópolis actuales, podemos entender el origen de muchos problemas que se han presentado históricamente en la construcción de software y vislumbrar las posibles y probables soluciones que nos llevarán hacia la industrialización del software moderno"
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Qué ventajas tiene?",
+				"bodyCopy": "Se usa principalmente por las siguientes ventajas:",
+				"content": [
+					{
+						"type": "list",
+						"list": [
+							"**Reutilización del software:** lo que nos lleva a alcanzar un mayor nivel de reutilización de software.",
+							"**Simplificación de las pruebas:** permite que las pruebas sean ejecutadas probando cada uno de los componentes antes de probar el conjunto completo de componentes ensamblados.",
+							"**Simplifica el mantenimiento del sistema:** cuando existe un débil acoplamiento entre componentes, el desabollador es libre de actualizar y/o agregar componentes según sea necesario, sin afectar otras partes del sistema.",
+							"**Mayor calidad:** dado que un componente puede ser construido y luego mejorado continuamente por un experto u organización, la calidad de una aplicación basada en componentes mejorará con el paso del tiempo."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"**Servicios Web**, donde se requiere seguir estándares de servicios y están disponibles por invocación remota.",
+					"**Aplicaciones Web**, donde se puede seccionar partes del sistema con funcionalidades independientes y/o se conozca de soluciones de software de terceros que fácilmente se puedan integrar y personalizar.",
+					"**Colecciones de objetos**, que son desarrollados como un paquete.",
+					"**Sistemas de software**, stand-alone, que puedan ser configurados para su uso en un ambiente en particular."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://sites.google.com/site/lawebdelsoftware/ingenieria-de-software-1/unidad-vi",
+					"https://matriarm.wordpress.com/desarrollo-basado-en-componentes/"
+				]
+			}
+		]
+	},
+	{
+		"title": "Espiral",
+		"imagePath": "images/Methodologies/Traditional/Espiral.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Es un modelo de proceso de software evolutivo donde se pueden utilizar prototipos y unirlos para crecer la complejidad del sistema que se quiere desarrollar.",
+					"Proporciona el potencial para el desarrollo rápido de versiones incrementales del software."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿De qué se compone?",
+				"bodyCopy": "Cada vuelta se divide en 4 sectores:",
+				"content": [
+					{
+						"type": "numberList",
+						"list": [
+							"**Planificación:** determinación de los objetivos, alternativas y restricciones.",
+							"**Análisis de riesgo:** análisis de alternativas e identificación/resolución de riesgos.",
+							"**Ingeniería o implementación:** desarrollo del producto hasta \"el siguiente nivel\".",
+							"**Evaluación:** valoración por parte del cliente de los resultados obtenidos."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"El proyecto es grande.",
+					"Se quiere que las liberaciones de software sean frecuentes.",
+					"Aplica la creación de un prototipo.",
+					"Es primordial un control de riesgos y costos.",
+					"En proyectos catalogados de riesgo medio-alto y alto.",
+					"Los requisitos son poco claros y complejos.",
+					"Hay un alto grado de cambios y estos pueden aparecer en cualquier momento.",
+					"El compromiso de proyecto a largo plazo está comprometido, bien sea por razones económicas u otras."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"Fuente: Desconocido. (septiembre 2013). ¿Qué es una metodología de desarrollo de Software?. [Online]. Disponible en: https://www.4rsoluciones.com/blog/una-metodologia-desarrollo-software/"
+				]
+			}
+		]
+	},
+	{
+		"title": "Cascada Iterativo",
+		"imagePath": "images/Methodologies/Traditional/CascadaIterativo.jpg",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Es un modelo derivado del ciclo de vida en cascada. Este modelo busca reducir el riesgo que surge entre las necesidades del usuario y el producto final por malos entendidos durante la etapa de recogida de requisitos.",
+					"Consiste en la iteración de varios ciclos de vida en cascada. Al final de cada iteración se le entrega al cliente una versión mejorada o con mayores funcionalidades del producto. El cliente es quien después de cada iteración evalúa el producto y lo corrige o propone mejoras. Estas iteraciones se repetirán hasta obtener un producto que satisfaga las necesidades del cliente."
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Análisis",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Todo proyecto de software comienza con una fase de análisis que incluye un estudio de viabilidad y una definición de los requisitos. En el estudio de viabilidad se evalúan los costes, la rentabilidad y la factibilidad del proyecto de software. El estudio de viabilidad da como resultado un pliego de condiciones (una descripción general de los requisitos), un plan y una estimación financiera del proyecto, así como una propuesta para el cliente, si fuera necesario."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Diseño",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"La fase de diseño sirve para formular una solución específica en base a las exigencias, tareas y estrategias definidas en la fase anterior. En esta fase, los desarrolladores de software se encargan de diseñar la arquitectura de software, así como un plan de diseño detallado del mismo, centrándose en componentes concretos, como interfaces, entornos de trabajo o bibliotecas. La fase de diseño da como resultado un borrador preliminar con el plan de diseño del software, así como planes de prueba para los diferentes componentes."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Implementación",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"La arquitectura de software concebida en la fase de diseño se ejecuta en la fase de implementación, en la que se incluye la programación del software, la búsqueda de errores y las pruebas unitarias. En la fase de implementación, el proyecto de software se traduce al correspondiente lenguaje de programación. Los diversos componentes se desarrollan por separado, se comprueban a través de las pruebas unitarias y se integran poco a poco en el producto final. La fase de implementación da como resultado un producto de software que se comprueba por primera vez como producto final en la siguiente fase (prueba alfa)."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Fase de Prueba",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"La fase de prueba incluye la integración del software en el entorno seleccionado. Por norma general, los productos de software se envían en primer lugar a los usuarios finales seleccionados en versión beta (pruebas beta). Las pruebas de aceptación desarrolladas en la fase de análisis permiten determinar si el software cumple con las exigencias definidas con anterioridad. Aquellos productos de software que superan con éxito las pruebas beta están listos para su lanzamiento."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Proyectos con necesidades de entregas constantes.",
+					"Proyectos en los que requisitos no estén totalmente definidos.",
+					"Proyectos que permitan el desarrollo en pequeños ciclos.",
+					"Estructuración de información clara.",
+					"Proyectos que constan de diversa fase.",
+					"Proyecto que requieren de desarrollo rápido."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"http://isw-udistrital.blogspot.com/2012/09/ingenieria-de-software-continuacion.html#:~:text=Es%20un%20modelo%20derivado%20del,ciclos%20de%20vida%20en%20cascada",
+					"https://www.fing.edu.uy/tecnoinf/mvd/cursos/ingsoft/material/teorico/is02b-Tabla%20Comparativa%20Modelos.pdf"
+				]
+			}
+		]
+	}
+]

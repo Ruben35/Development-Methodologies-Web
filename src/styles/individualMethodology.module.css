@@ -1,0 +1,93 @@
+.wrapMethodology h3, .wrapMethodology p{
+    margin-bottom: 5px;
+}
+
+.wrapMethodology p, .wrapMethodology li{
+    text-align: justify;
+    text-justify: inter-word;
+    white-space: pre-line;
+}
+
+.wrapMethodology ul{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.wrapMethodology ol{
+    padding-left: 30px;
+}
+
+.wrapMethodology li{
+    margin-bottom: 5px;
+    position: relative; 
+}
+
+.wrapMethodology ul li::before{
+    content: "\2022";
+    color: var(--primaryNormal);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 2rem;
+    position: absolute;
+    left: 0.7rem;
+    top: -0.1rem;
+}
+
+.wrapMethodology ol li::marker{
+    color: var(--primaryNormal);
+    font-weight: var(--boldFont);
+}
+
+.image_Concept{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.imageContainer {
+    border-radius: 14px;
+    box-shadow: var(--shadowCard);
+    flex: 1 1 0px;
+}
+
+.concept {
+    flex: 1 1 0px;
+}
+
+.imageStyle {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapMargin{
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .image_Concept{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.references{
+    margin-top: 30px;
+}
+
+.references a,.references a:link, .references a:visited {
+    color: var(--textNormal);
+}
+
+.references a:hover{
+    color: var(--primaryStrong);
+}
+
+.references ul {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
