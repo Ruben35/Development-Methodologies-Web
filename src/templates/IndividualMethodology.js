@@ -1,5 +1,4 @@
-import React, { useEffect } from "react"
-import ReactDOM from "react-dom"
+import React from "react"
 import { HeroWithType } from "../components"
 import * as styles from "../styles/individualMethodology.module.css"
 import {
@@ -11,13 +10,6 @@ import {
 
 function IndividualMethodology({ pageContext }) {
 	const { title, type, image, content } = pageContext
-
-	useEffect(() => {
-		//Scroll to top
-		const node = document.getElementById("main")
-		console.log(node)
-		ReactDOM.findDOMNode(node).scrollTo(0, 0)
-	}, [])
 
 	return (
 		<div className={styles.wrapMethodology}>

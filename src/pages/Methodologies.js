@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react"
-import ReactDOM from "react-dom"
 import { Container, Hero } from "../components"
 import * as styles from "../styles/methodologies.module.css"
 import CardsGrid from "../components/page/Methodologies/CardsGrid"
@@ -28,11 +27,6 @@ function Methodologies({ data }) {
 		})
 		setDataTraditional(data.allTraditionalJson.nodes)
 		setDataAgile(data.allAgilJson.nodes)
-
-		//Scroll to top
-		const node = document.getElementById("main")
-		console.log(node)
-		ReactDOM.findDOMNode(node).scrollTo(0, 0)
 	}, [
 		data.agileImages.nodes,
 		data.allAgilJson.nodes,
