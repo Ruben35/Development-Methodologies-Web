@@ -16,9 +16,9 @@
 }
 
 .croodsImage img{
-    width: 52%;
+    width: 52% !important;
     object-fit: contain;
-    margin: auto;
+    margin: auto !important;
 }
 
 @media screen and (max-width: 835px) {
