@@ -8,6 +8,7 @@ export const useSiteMetadata = () => {
 					defaultDescription: description
 					author
 					siteUrl
+					defaultImage: image
 				}
 			}
 		}

@@ -2,7 +2,7 @@
 	"name": "metodologias-de-desarrollo-de-proyectos",
 	"version": "1.0.0",
 	"private": true,
-	"description": "metodolog-as-de-desarrollo-de-proyectos",
+	"description": "metodologias-de-desarrollo-de-proyectos",
 	"author": "Ruben35",
 	"homepage": "https://ruben35.github.io/Development-Methodologies-Web/",
 	"keywords": [
@@ -13,8 +13,7 @@
 		"build": "gatsby build --prefix-paths",
 		"serve": "gatsby serve",
 		"clean": "gatsby clean",
-		"deploy": "npm run clean && npm run build && gh-pages -d public",
-		"dep": "gh-pages -d public"
+		"deploy": "npm run clean && npm run build && gh-pages -d public"
 	},
 	"dependencies": {
 		"@fontsource/poppins": "^4.5.8",

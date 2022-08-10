@@ -1,9 +1,10 @@
 module.exports = {
 	siteMetadata: {
 		title: `Metodologías de Desarrollo de Proyectos`,
-		siteUrl: `https://ruben35.github.io/Development-Methodologies-Web/`,
-		description: `Página web donde se incluye información sobre diversas metodologías de desarrollo de proyectos de tecnología.`,
+		siteUrl: `https://ruben35.github.io/Development-Methodologies-Web`,
+		description: `Página web 🌐 donde se incluye información sobre diversas metodologías de desarrollo de proyectos de tecnología 💻.`,
 		author: `@Ruben35`,
+		image: `/images/Social-Media-Image.jpg`,
 	},
 	pathPrefix: "/Development-Methodologies-Web",
 	plugins: [
@@ -33,6 +34,7 @@ module.exports = {
 				name: "Metodologías de Desarrollo de Proyectos",
 				short_name: "Metodologías Web",
 				start_url: "/",
+				id: "/",
 				lang: "es",
 				theme_color: "#FFBC25",
 				background_color: "#FFFEFA",
@@ -47,6 +49,5 @@ module.exports = {
 				precachePages: [`/`, `/Metodologias`],
 			},
 		},
-		// "gatsby-plugin-offline",
 	],
 }

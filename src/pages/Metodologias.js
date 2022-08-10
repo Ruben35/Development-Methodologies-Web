@@ -53,7 +53,7 @@ function Methodologies({ data }) {
 	)
 }
 
-export const Head = () => <Seo title='Metodologías' />
+export const Head = () => <Seo title='Metodologías' pathname='/Metodologias' />
 
 export const query = graphql`
 	query GridsMethodologies {

@@ -11,3 +11,7 @@ import MainLayout from "./src/layouts/MainLayout"
 export const wrapRootElement = ({ element }) => (
 	<MainLayout>{element}</MainLayout>
 )
+
+export const onRenderBody = ({ setHtmlAttributes }) => {
+	setHtmlAttributes({ lang: "es" })
+}
