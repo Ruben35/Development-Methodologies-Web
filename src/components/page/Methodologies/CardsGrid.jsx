@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { CardMethodology, ShowMoreLess } from "../../"
-import { useBreakpoint } from "../../../utils/useBreakpoint"
+import { useBreakpoint } from "../../../utils/hooks/useBreakpoint"
 import * as styles from "../../../styles/methodologies.module.css"
 // import PropTypes from "prop-types"
 
