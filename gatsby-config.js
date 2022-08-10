@@ -10,7 +10,7 @@ module.exports = {
 		"gatsby-plugin-image",
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
-		`gatsby-transformer-json`,
+		"gatsby-transformer-json",
 		{
 			resolve: "gatsby-source-filesystem",
 			options: {
@@ -27,5 +27,26 @@ module.exports = {
 				},
 			},
 		},
+		{
+			resolve: "gatsby-plugin-manifest",
+			options: {
+				name: "Metodologías de Desarrollo de Proyectos",
+				short_name: "Metodologías Web",
+				start_url: "/",
+				lang: "es",
+				theme_color: "#FFBC25",
+				background_color: "#FFFEFA",
+				display: "standalone",
+				icon: "src/assets/logos/Favicon.svg",
+				crossOrigin: "use-credentials",
+			},
+		},
+		{
+			resolve: `gatsby-plugin-offline`,
+			options: {
+				precachePages: [`/`, `/Metodologias`],
+			},
+		},
+		// "gatsby-plugin-offline",
 	],
 }

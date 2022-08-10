@@ -41,8 +41,6 @@ const SelectContent = ({ title, image, content }) => {
 }
 
 export const Head = ({ pageContext }) => {
-	console.log(pageContext)
-
 	return <Seo title={pageContext.title} />
 }
 

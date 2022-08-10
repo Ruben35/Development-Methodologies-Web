@@ -8,7 +8,6 @@ function Seo({ title }) {
 	return (
 		<>
 			<title>{title}</title>
-			<meta name='theme-color' content='#FFBC25' />
 		</>
 	)
 }
