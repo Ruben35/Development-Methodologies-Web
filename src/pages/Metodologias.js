@@ -47,7 +47,7 @@ function Methodologies({ data }) {
 					</Container>
 				</>
 			) : (
-				<div className='loading'>Loading...</div>
+				<div className='loading' />
 			)}
 		</>
 	)
