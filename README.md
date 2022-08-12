@@ -2,8 +2,11 @@
   <!-- <p align="center" style="background-color: #FFBC25; padding-top:8px; border-radius:8px;">
       <img alt="Metodologías de Desarrollo de Proyectos" src="static/images/Social-Media-Image.jpg" width="400" />
   </p> -->
+<!-- 
+  <img alt="Metodologías de Desarrollo de Proyectos" src="static/images/Hero%20GitHub.svg" /> -->
 
-  <img alt="Metodologías de Desarrollo de Proyectos" src="static/images/Hero%20GitHub.svg" />
+  ![Hero GitHub](https://user-images.githubusercontent.com/30848819/184420899-ec26f2fd-c305-4dd0-a609-779fa30a9a50.svg)
+
 
 </a>
 
