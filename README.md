@@ -1,11 +1,18 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+<a href="https://ruben35.github.io/Development-Methodologies-Web/" target="_blank">
+  <p align="center" style="background-color: #FFBC25; padding-top:8px; border-radius:8px;">
+      <img alt="Metodologías de Desarrollo de Proyectos" src="static/images/Social-Media-Image.jpg" width="400" />
+  </p>
+</a>
+
+<h3 align="center">A digital resource to learn about them and how to apply them!</p>
+
+<div align="center">
+![WebsiteUp](https://img.shields.io/website.svg?down_color=red&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Fruben35.github.io%2FDevelopment-Methodologies-Web%2F)
+
+</div>
+
+
+## Contents :bookmark_tabs:
 
 ## 🚀 Quick start
 
@@ -54,12 +61,4 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
 
 
-<!-- TODO: animations, update README.md -->
-<!-- 
-  https://branch.com.co/marketing-digital/meta-tags-en-seo-que-son-y-para-que-sirven/
-  https://rockcontent.com/es/blog/canonical-tag/
-  https://ogp.me/
-  https://placid.app/blog/how-to-get-large-facebook-twitter-link-thumbnails
-  https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-seo-component/
-  https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- -->
+<!-- update README.md -->
