@@ -26,15 +26,26 @@
 
 
 ## Contents :bookmark_tabs:
-1. [Brief 🗒️]()
-2. [Product Design 🧩]()
-3. [Development 🛠️]()
-4. [Installation 💻]()
-5. [Deployment 🚀]()
-6. [Contribute 🎈]()
-7. [Authors and Credits 📖]()
+- [Contents :bookmark_tabs:](#contents-bookmark_tabs)
+- [Brief 🗒️](#brief-️)
+  - [What is "Metodologías de Desarrollo de Proyectos"? 🌐](#what-is-metodologías-de-desarrollo-de-proyectos-)
+- [Product Design 🧩](#product-design-)
+- [Development 🛠️](#development-️)
+- [Installation 💻](#installation-)
+- [Deployment 🚀](#deployment-)
+- [Contribute 🎈](#contribute-)
+- [Authors and Credits 📖](#authors-and-credits-)
 
 ## Brief 🗒️
+### What is "Metodologías de Desarrollo de Proyectos"? 🌐
+This is a **web page** 🌐 that includes information of various technology project development methodologies 📊.
+
+In it are the famous approaches (**Traditional** and **Agile**) and their main methodologies are exposed.
+
+Its functionality, advantages, components or stages are explained for each methodology and, above all, it is about explaining **what type of projects are adapted to each one** for greater feasibility.
+
+The raison d'être of this project is that people who are in the process of starting a technology project have an **easily accessible site** that concentrates various options for methodologies and makes it **easier to choose** one of them.
+
 
 ## Product Design 🧩
 
@@ -47,3 +58,4 @@
 ## Contribute 🎈
 
 ## Authors and Credits 📖
+
