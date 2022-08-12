@@ -5,7 +5,7 @@
 <!-- 
   <img alt="Metodologías de Desarrollo de Proyectos" src="static/images/Hero%20GitHub.svg" /> -->
 
-  ![Hero GitHub](https://user-images.githubusercontent.com/30848819/184420899-ec26f2fd-c305-4dd0-a609-779fa30a9a50.svg)
+  ![Hero GitHub](static/images/Hero%20GitHub.svg)
 
 
 </a>
