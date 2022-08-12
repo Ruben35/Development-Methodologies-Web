@@ -480,8 +480,29 @@
 			{
 				"type": "ImageConcept",
 				"concept": [
-					"Es un modelo de proceso de software evolutivo donde se pueden utilizar prototipos y unirlos para crecer la complejidad del sistema que se quiere desarrollar.",
-					"Proporciona el potencial para el desarrollo rápido de versiones incrementales del software."
+					"Es uno de los modelos de ciclo de vida de desarrollo de software más importantes y especiales ya que proporciona soporte para la gestión de riesgos. Su nombre se debe a que en su representación esquemática parece un espiral con muchos bucles.",
+					"Cada proyecto tiene su propio número de bucles. Y por otro lado, cada ciclo de la espiral se llama Fase del proceso de desarrollo de software."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿De qué se caracteriza?",
+				"bodyCopy": "Se caracteriza por iterar repetidamente un conjunto de procesos de desarrollo elemental y eliminar el riesgo, por lo que se está reduciendo activamente. Todo el proceso de desarrollo pasa repetidamente por ciertas etapas. Cada iteración se llama espiral.",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Por otro lado, en este modelo se pueden utilizar prototipos y unirlos para crecer la complejidad del sistema que se quiere desarrollar. Además, proporciona el potencial para el desarrollo rápido de versiones incrementales del software y conjuga la naturaleza iterativa de construcción de prototipos con los aspectos controlados y sistemáticos del modelo lineal secuencial.",
+							"Principalmente se distingue este modelo por lo siguiente:"
+						]
+					},
+					{
+						"type": "list",
+						"list": [
+							"Un **enfoque cíclico** para el crecimiento incremental del grado de definición e implementación de un sistema, mientras que disminuye su grado de riesgo.",
+							"Un conjunto de **puntos de fijación** para asegurar el compromiso del usuario con soluciones de sistema que sean factibles y mutuamente satisfactorias."
+						]
+					}
 				]
 			},
 			{
@@ -496,6 +517,19 @@
 							"**Análisis de riesgo:** análisis de alternativas e identificación/resolución de riesgos.",
 							"**Ingeniería o implementación:** desarrollo del producto hasta \"el siguiente nivel\".",
 							"**Evaluación:** valoración por parte del cliente de los resultados obtenidos."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Cómo se funciona?",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Con cada iteración alrededor de la espiral (comenzando en el centro y siguiendo hacia el exterior), se van construyendo sucesivas versiones del software, cada vez más completas.",
+							"Durante la primera vuelta de la espiral, en el primer cuadrante (superior izquierdo) se determinan objetivos, alternativas y restricciones; y en el segundo cuadrante (superior derecho) se analizan e identifican los riesgos (¿se dispone de personal?, ¿está preparado?, ¿existe mercado para el producto?, etc.). Si el análisis de los riesgos indica que existe incertidumbre en los requisitos se puede desarrollar un prototipo en la implementación y después pasarlo a la etapa de evaluación para su valoración, y también se pueden usar simulaciones y otros modelos para definir más el problema y refinar los requisitos."
 						]
 					}
 				]
@@ -516,7 +550,10 @@
 			{
 				"type": "references",
 				"content": [
-					"Fuente: Desconocido. (septiembre 2013). ¿Qué es una metodología de desarrollo de Software?. [Online]. Disponible en: https://www.4rsoluciones.com/blog/una-metodologia-desarrollo-software/"
+					"Desconocido. (septiembre 2013). ¿Qué es una metodología de desarrollo de Software?. [Online]. Disponible en: https://www.4rsoluciones.com/blog/una-metodologia-desarrollo-software/",
+					"https://www.tecnologias-informacion.com/metodo-espiral.html",
+					"https://sites.google.com/site/proyectoadpmodelosdedesarrollo/home/modelos-de-desarrollo",
+					"https://williantab.weebly.com/espiral.html"
 				]
 			}
 		]
