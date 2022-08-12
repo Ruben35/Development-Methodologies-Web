@@ -4,12 +4,15 @@ import Seo from "../components/utils/Seo"
 import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import "animate.css"
 
 const HomePage = () => {
 	return (
 		<>
 			<Container className={styles.welcome}>
-				<h1>Metodologías de Desarrollo de Proyectos</h1>
+				<h1 className={styles.pulse}>
+					Metodologías de Desarrollo de Proyectos
+				</h1>
 				<StaticImage
 					src='../assets/images/Croods The Feedback.png'
 					className={styles.croodsImage}
@@ -19,7 +22,7 @@ const HomePage = () => {
 				/>
 				<p>¡Un recurso digital para conocerlas y saber cómo aplicarlas!</p>
 				<Link to='/Metodologias'>
-					<button>¡Aprender ahora!</button>
+					<button className={styles.headShake}>¡Aprender ahora!</button>
 				</Link>
 			</Container>
 			<Container className={styles.cardsSection}>
