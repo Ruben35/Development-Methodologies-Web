@@ -1,17 +1,12 @@
 <a href="https://ruben35.github.io/Development-Methodologies-Web/">
-  <!-- <p align="center" style="background-color: #FFBC25; padding-top:8px; border-radius:8px;">
-      <img alt="Metodologías de Desarrollo de Proyectos" src="static/images/Social-Media-Image.jpg" width="400" />
-  </p> -->
-<!-- 
-  <img alt="Metodologías de Desarrollo de Proyectos" src="static/images/Hero%20GitHub.svg" /> -->
 
-  ![Hero GitHub](static/images/Hero%20GitHub.svg)
-
+  ![Hero GitHub](https://user-images.githubusercontent.com/30848819/184420899-ec26f2fd-c305-4dd0-a609-779fa30a9a50.svg)
 
 </a>
 
 
-<h3 align="center">A digital resource to learn about them and how to apply them!</p>
+<h3 align="center">A digital resource 🌐 to learn about them and how to apply them!🧩</h3>
+
 
 <div align="center">
 
@@ -31,52 +26,24 @@
 
 
 ## Contents :bookmark_tabs:
+1. [Brief 🗒️]()
+2. [Product Design 🧩]()
+3. [Development 🛠️]()
+4. [Installation 💻]()
+5. [Deployment 🚀]()
+6. [Contribute 🎈]()
+7. [Authors and Credits 📖]()
 
-## 🚀 Quick start
+## Brief 🗒️
 
-1.  **Create a Gatsby site.**
+## Product Design 🧩
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Development 🛠️
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Installation 💻
 
-2.  **Start developing.**
+## Deployment 🚀
 
-    Navigate into your new site’s directory and start it up.
+## Contribute 🎈
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
-
-
-<!-- update README.md -->
+## Authors and Credits 📖
