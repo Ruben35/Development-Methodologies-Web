@@ -4,7 +4,6 @@ import Seo from "../components/utils/Seo"
 import * as styles from "../styles/home.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
-import "animate.css"
 
 const HomePage = () => {
 	return (
