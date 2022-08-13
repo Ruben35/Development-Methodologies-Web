@@ -47,7 +47,7 @@ In it are the famous approaches (**Traditional** and **Agile**) and their main m
 
 Its functionality, advantages, components or stages are explained for each methodology and, above all, it is about explaining **what type of projects are adapted to each one** for greater feasibility.
 
-The raison d'être of this project is that people who are in the process of starting a technology project have an **easily accessible site** that concentrates various options for methodologies and makes it **easier to choose** one of them.
+The raison d'être of this project is that people who are in the process of starting a technology project could have an **easily accessible site** that concentrates various options for methodologies and makes it **easier to choose** one of them.
 
 <div align="center">
 
@@ -106,16 +106,16 @@ The data of the methodologies are in two JSON located on `/src/assets/data` name
     "content":[
       {
         "type": "ImageConcept",
-				"concept": [
-					"paragraph",
-					...
-				]
+        "concept": [
+          "paragraph",
+          ...
+          ]
       },
       {
         "type": "section",
         "header": "Heading Text",
-		    "bodyCopy": "Paragraph below heading",
-				"content":[
+        "bodyCopy": "Paragraph below heading",
+        "content":[
           {
             "type":"list | numberList | p",
             "list | p ": ["listItem | paragraph", ...]
