@@ -47,13 +47,13 @@ function Methodologies({ data }) {
 					</Container>
 				</>
 			) : (
-				<div className='loading'>Loading...</div>
+				<div className='loading' />
 			)}
 		</>
 	)
 }
 
-export const Head = () => <Seo title='Metodologías' />
+export const Head = () => <Seo title='Metodologías' pathname='/Metodologias' />
 
 export const query = graphql`
 	query GridsMethodologies {

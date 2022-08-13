@@ -152,7 +152,7 @@
 		]
 	},
 	{
-		"title": "Iterative e Incremental",
+		"title": "Iterativa e Incremental",
 		"imagePath": "images/Methodologies/Agile/Incremental.png",
 		"content": [
 			{
@@ -298,6 +298,75 @@
 		]
 	},
 	{
+		"title": "Kanban",
+		"imagePath": "images/Methodologies/Agile/Kanban.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Kanban es un método para gestionar el trabajo que surgió en Toyota Production System (TPS). A finales de los años 40, Toyota implementó en su producción el sistema “just in time” (justo a tiempo”) que en realidad representa un sistema de arrastre. Esto significa que la producción se basa en la demanda de los clientes y no en la práctica tradicional “pull” de fabricar productos e intentar venderlos en el mercado.",
+					"La metodología Kanban se implementa por medio de **tableros Kanban**. Se trata de un método visual de gestión de proyectos que permite a los equipos visualizar sus flujos de trabajo y la carga de trabajo."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Cómo funciona?",
+				"bodyCopy": "En un tablero Kanban, el trabajo se muestra en un proyecto en forma de tablero organizado por columnas. Tradicionalmente, cada columna representa una etapa del trabajo. El tablero Kanban más básico puede presentar columnas como **\"Trabajo pendiente\"**, **\"En progreso\"** y **\"Terminado\"**. Las tareas individuales (representadas por tarjetas visuales en el tablero) avanzan a través de las diferentes columnas hasta que estén finalizadas.",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Para utilizar Kanban, se tienen 4 principios que modelan el cómo trabajar, los cuales son:"
+						]
+					},
+					{
+						"type": "numberList",
+						"list": [
+							"**Empezar con lo que hace ahora:** Kanban no requiere configuración y puede ser aplicado sobre flujos reales de trabajo o procesos activos para identificar los problemas. Por eso es fácil implementar Kanban en cualquier tipo de organización, ya que no es necesario realizar cambios drásticos.",
+							"**Comprometerse a buscar e implementar cambios incrementales y evolutivos:** El método Kanban está diseñado para implementarse con una mínima resistencia, por lo que trata de pequeños y continuos cambios incrementales y evolutivos del proceso actual. En general, los cambios radicales no son considerados, ya que normalmente se encuentran con resistencias debidas al miedo o la incertidumbre del proceso.",
+							"**Respetar los procesos, las responsabilidades y los cargos actuales:** Kanban reconoce que los procesos en curso, los roles, las responsabilidades y los cargos existentes pueden tener valor y vale la pena conservarlos. El método Kanban no prohíbe el cambio, pero tampoco lo prescribe. Alienta el cambio incremental, ya que no provoca tanto miedo como para frenar el progreso.",
+							"**Animar el liderazgo en todos los niveles:** Este es el principio más novedoso de Kanban. Algunos de los mejores liderazgos surgen de actos del día a día de gente que está al frente de sus equipos. Es importante que todos fomenten una mentalidad de mejora continua (Kaizen) para alcanzar el rendimiento óptimo a nivel de equipo/departamento/empresa. Esta no puede ser una actividad de sólo el nivel de dirección."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "Las 6 prácticas de la metodología Kanban",
+				"bodyCopy": "Los principios básicos de Kanban son de suma utilidad para guiar la mentalidad de los equipos al momento de abordar un flujo de trabajo Kanban. Para implementar un proceso Kanban,es ideal seguir estas seis prácticas que usan las grandes empresas que permitirán ayudar a los equipos a implementar una mentalidad de mejora continua y a lograr un crecimiento progresivo: **los principios esenciales del marco Kanban**.",
+				"content": [
+					{
+						"type": "numberList",
+						"list": [
+							"Visualizar el trabajo.",
+							"Limitar el trabajo en curso.",
+							"Gestionar el flujo de trabajo.",
+							"Implementar políticas de procesos explícitas.",
+							"Implementar ciclos de comentarios.",
+							"Mejorar colaborando y evolucionar experimentando."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Proyectos que necesitan desarrollos rápidos.",
+					"Proyectos que requieren priorización de tareas.",
+					"Proyectos con poco tiempo disponible.",
+					"Proyectos donde el trabajo en curso no sea tan alto.",
+					"Proyectos que requieren visualizar el trabajo en equipo."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://kanbanize.com/es/recursos-de-kanban/primeros-pasos/que-es-kanban"
+				]
+			}
+		]
+	},
+	{
 		"title": "Scrumban",
 		"imagePath": "images/Methodologies/Agile/Scrumban.jpg",
 		"content": [
@@ -395,6 +464,125 @@
 			{
 				"type": "references",
 				"content": ["https://asana.com/es/resources/scrumban"]
+			}
+		]
+	},
+	{
+		"title": "Design Thinking",
+		"imagePath": "images/Methodologies/Agile/DesignThinking.jpg",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Design Thinking es una metodología de trabajo dividida en diferentes fases que se ha convertido en una herramienta indispensable en las empresas. Su éxito se basa en un enfoque centrado en fomentar la innovación en las organizaciones de una forma eficaz y exitosa. Esto se debe a que, gracias a su aplicación, se generan importantes beneficios en el diseño de soluciones, permitiendo a las empresas obtener mejores resultados."
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Cómo se presenta?",
+				"bodyCopy": "El Design Thinking se presenta como una metodología para **desarrollar la innovación centrada en las personas**, ofreciendo una lente a través de la cual se pueden observar los retos, detectar necesidades y, finalmente, solucionarlas. Se trata de dar un enfoque que se sirve de la sensibilidad del diseñador y su método de resolución de problemas. El objetivo: **satisfacer las necesidades de las personas de una forma que sea tecnológicamente factible y comercialmente viable**.",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"Design Thinking es un proceso que, a través de soluciones creativas, permite resolver problemas y así generar valor gracias a una metodología centrada en entender y co-crear alrededor de los usuarios. Este proceso se enfoca en la experiencia del usuario, primordialmente, busca comprender sus problemas y analizar sus comportamientos para, así, generar ideas que permitan darle solución a sus dolencias a través de prototipos rápidos."
+						]
+					}
+				]
+			},
+			{
+				"type": "section",
+				"header": "¿Cómo se usa?",
+				"bodyCopy": "El proceso de investigación del Design Thinking permitirá crear soluciones para que los clientes estén más satisfechos no solo con el producto o servicio sino también con la relación que tiene con la marca. Son 5 las etapas de este proceso que ayudará a entender cómo influye el comprender qué es lo que busca el usuario:",
+				"content": [
+					{
+						"type": "numberList",
+						"list": [
+							"**Empatía:** Como primera etapa del proceso es importante ser empático con los usuarios ya que buscas resolver el problema que tienen con el producto o servicio. Incluir en la investigación entrevistas u observación será de mucha utilidad para comprender los comportamientos presentados. Es importante, también, tomar en cuenta el contexto y factores ambientales.",
+							"**Definición:** Luego de que la empatía ayudó a identificar patrones de problemas podremos definir qué es lo que se busca cambiar o mejorar. El enfoque en las necesidades y comportamientos de los usuarios ayudará a desarrollar las hipótesis sobre cómo resolver los inconvenientes.",
+							"**Idea:** Teniendo la información necesaria para resolver la problemática, la lluvia de ideas entre expertos en diseño, tecnología y negocios puede aumentar la probabilidad de encontrar una combinación única para crear un producto más atractivo o un servicio que mejore la experiencia de los usuarios.",
+							"**Prototipo:** Construir prototipos antes de crear el producto final ayuda a visualizar las ideas planteadas y corroborar si han sido válidas. Son esenciales para percatarse de alguna falla de usabilidad y así ahorrar tiempo de producción o posible pérdida comercial.",
+							"**Prueba:** Una vez que el prototipo es el buscado, es importante hacer que los usuarios la validen. Observar cómo interactúan con el prototipo confirmará que el diseño propuesto funcione de acuerdo a lo establecido."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Proyectos en los que se necesitan entender los problemas del usuario.",
+					"Proyectos que requieren el trabajo en equipo.",
+					"Proyectos que pueden tener un prototipado.",
+					"Proyectos que requieran conocer la necesidad del mercado.",
+					"Proyectos con plazos y ritmos dinámicos."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://educacion-ejecutiva.utec.edu.pe/blog/5-etapas-proceso-design-thinking#:~:text=Design%20Thinking%20es%20un%20proceso,crear%20alrededor%20de%20los%20usuarios",
+					"https://gestion.pe/economia/management-empleo/design-thinking-aplicar-metodo-innovar-empresas-nnda-nnlt-250663-noticia/"
+				]
+			}
+		]
+	},
+	{
+		"title": "Crystal",
+		"imagePath": "images/Methodologies/Agile/Crystal.png",
+		"content": [
+			{
+				"type": "ImageConcept",
+				"concept": [
+					"Crystal es una metodología de desarrollo de Software ágil y más que una metodología se le considera una familia de metodologías debido a que se subdivide en varios tipos de metodologías en función a la cantidad de personal que vayan a estar en un proyecto.",
+					"Es una metodología que ha sido creada por una persona en particular (Alistair Cockburn, firmante del manifiesto ágil), el cuál la creó en base al análisis de distintos proyectos de desarrollo de software y su propia experiencia, lo cual fusionando ambos aspectos dio lugar a una metodología bastante interesante."
+				]
+			},
+			{
+				"type": "section",
+				"header": "Una familia de metodologías",
+				"content": [
+					{
+						"type": "p",
+						"p": [
+							"No es una metodología en sí misma, sino una familia de metodologías con un “código genético común”, puesto que comparte una orientación humana, pero esta centralización en las personas se hace de una manera diferente. Alistair Cockburn, considera que las personas encuentran difícil seguir un proceso disciplinado, así que más que seguir la disciplina de XP, Alistar explora una metodología menos disciplinada que aún podría tener éxito intercambiando conscientemente productividad por la facilidad de la ejecución. Son una familia de metodologías ágiles, donde cada una de ellas está adecuada para un tipo de proyecto. Están caracterizadas por estar centradas en las personas que componen el equipo (de ellas depende el éxito del proyecto) y la reducción al máximo del número de artefactos producidos.",
+							"Dependiendo de la cantidad de desarrolladores involucrados, el bienestar de los mismos, el ciclo de vida del desarrollo del proyecto, el presupuesto monetario imprescindible y el presupuesto de uso opcional Crystal Methodologies es capaz de clasificarse mediante los siguientes colores que determinan los métodos incluidos dentro de las metodologías Crystal:"
+						]
+					},
+					{
+						"type": "list",
+						"list": [
+							"Crystal Yellow",
+							"Crystal Orange",
+							"Crystal Orange Web",
+							"Crystal Red",
+							"Crystal Magenta",
+							"Crystal Blue"
+						]
+					},
+					{
+						"type": "p",
+						"p": [
+							"La diferencia con las metodologías ágiles Scrum y FDD es que son menos extremas y están pensadas para más tipologías de proyectos y organizaciones, destacando especialmente proyectos y empresas grandes; además de ser la única metodología que específicamente da cuenta de proyectos con criticidad de vida."
+						]
+					}
+				]
+			},
+			{
+				"type": "specialSection",
+				"content": [
+					"Se toma en cuenta el aspecto humano del equipo.",
+					"Proyectos donde el tamaño de un equipo.",
+					"Proyectos donde la comunicación entre los desarrolladores.",
+					"Políticas a seguir.",
+					"Se tiene poco espacio físico de trabajo."
+				]
+			},
+			{
+				"type": "references",
+				"content": [
+					"https://es.linkedin.com/pulse/metodolog%C3%ADa-%C3%A1gil-crystal-clear-cristian-mu%C3%B1oz-carvajal#:~:text=Crystal%20es%20una%20metodolog%C3%ADa%20de,a%20estar%20en%20un%20proyecto",
+					"https://isi2018.wordpress.com/2018/04/09/metodologia-agil-crystal/"
+				]
 			}
 		]
 	}

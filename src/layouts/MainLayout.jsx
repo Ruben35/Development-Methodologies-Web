@@ -6,10 +6,8 @@ function MainLayout({ children }) {
 	return (
 		<>
 			<Navbar />
-			<main id='main'>
-				{children}
-				<Footer />
-			</main>
+			<main id='main'>{children}</main>
+			<Footer />
 		</>
 	)
 }

@@ -41,9 +41,18 @@ const SelectContent = ({ title, image, content }) => {
 }
 
 export const Head = ({ pageContext }) => {
-	console.log(pageContext)
-
-	return <Seo title={pageContext.title} />
+	return (
+		<Seo
+			title={pageContext.title}
+			pathname={pageContext.pathname}
+			description={pageContext.content[0].concept[0]}
+			// Replacing prefix with none
+			image={pageContext.image.childImageSharp.gatsbyImageData.images.fallback.src.replace(
+				"/Development-Methodologies-Web",
+				""
+			)}
+		/>
+	)
 }
 
 export default IndividualMethodology

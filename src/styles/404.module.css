@@ -1,0 +1,29 @@
+
+.NotFound{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.Oops {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Oops a{
+    color: var(--primaryNormal);
+}
+
+.Oops a:hover{
+    font-weight: var(--boldFont);
+}
+
+.imageWrapper{
+    max-width: 500px;
+    transform: scaleX(-1);
+}

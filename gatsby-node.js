@@ -52,9 +52,10 @@ exports.createPages = async ({ actions, graphql }) => {
 		)
 
 		methodology.type = "Tradicional"
+		methodology.pathname = `/Metodologias/${pageNameFormat(methodology.title)}`
 
 		createPage({
-			path: `/Metodologias/${pageNameFormat(methodology.title)}`,
+			path: methodology.pathname,
 			component: methodologyTemplate,
 			context: methodology,
 		})
@@ -66,9 +67,10 @@ exports.createPages = async ({ actions, graphql }) => {
 		)
 
 		methodology.type = "Ágil"
+		methodology.pathname = `/Metodologias/${pageNameFormat(methodology.title)}`
 
 		createPage({
-			path: `/Metodologias/${pageNameFormat(methodology.title)}`,
+			path: methodology.pathname,
 			component: methodologyTemplate,
 			context: methodology,
 		})
