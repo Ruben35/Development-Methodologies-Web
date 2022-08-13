@@ -50,11 +50,7 @@ The raison d'être of this project is that people who are in the process of star
 
 <div align="center">
 
-  <a href="https://ruben35.github.io/Development-Methodologies-Web/">
-
-  ![Visit Website](https://user-images.githubusercontent.com/30848819/184499201-099b4203-8653-4a6f-a31a-a66dab47ea4c.svg)
-
-  </a>
+[![Visit Website](https://user-images.githubusercontent.com/30848819/184499201-099b4203-8653-4a6f-a31a-a66dab47ea4c.svg)](https://ruben35.github.io/Development-Methodologies-Web/)
 
 </div>
 
@@ -75,11 +71,9 @@ This foundations can be accesible on the [🧩UI Kit](https://www.figma.com/file
 For the UX design it was developed and prototyped a [📝WireFrame Mobile](https://www.figma.com/file/xCcXr7QB0ToLkBs1AKOX5N/Project-Methodologies?node-id=0%3A1) and subsequently for the UI were designed some atoms and components that were placed on the Hi Fidelity designs for [📱Mobile](https://www.figma.com/file/xCcXr7QB0ToLkBs1AKOX5N/Project-Methodologies?node-id=22%3A145), [📳Tablet](https://www.figma.com/file/xCcXr7QB0ToLkBs1AKOX5N/Project-Methodologies?node-id=39%3A327) and [🖥️Desktop](https://www.figma.com/file/xCcXr7QB0ToLkBs1AKOX5N/Project-Methodologies?node-id=68%3A688).
 
 <div align="center">
-  <a href="https://www.figma.com/file/xCcXr7QB0ToLkBs1AKOX5N/Project-Methodologies">
 
-  ![Open Figma](https://user-images.githubusercontent.com/30848819/184499203-9bef0687-5a4f-45e2-8cd5-74973b0e9984.svg)
+  [![Open Figma](https://user-images.githubusercontent.com/30848819/184499203-9bef0687-5a4f-45e2-8cd5-74973b0e9984.svg)](https://www.figma.com/file/xCcXr7QB0ToLkBs1AKOX5N/Project-Methodologies)
   
-  </a>
 </div>
 
 ## Development 🛠️
